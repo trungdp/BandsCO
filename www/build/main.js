@@ -1,0 +1,624 @@
+webpackJsonp([0],{
+
+/***/ 109:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 109;
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 150;
+
+/***/ }),
+
+/***/ 194:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgNhPPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var NgNhPPage = /** @class */ (function () {
+    function NgNhPPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    NgNhPPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ng-nh-p',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-nh-p\ng-nh-p.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Đăng nhập\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page1">\n  <img src="assets/img/nHBkB8CHSCqJLzPGIgz3_logo1.png" style="display:block;width:50%;height:;margin-left:auto;margin-right:auto;" />\n  <div id="NgNhP-container1">\n    <form id="NgNhP-form3">\n      <div class="spacer" style="width:300px;height:20px;" id="NgNhP-spacer31"></div>\n      <ion-item id="NgNhP-input4">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Tên đăng nhập"></ion-input>\n      </ion-item>\n      <ion-item id="NgNhP-input5">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Mật khẩu"></ion-input>\n      </ion-item>\n    </form>\n  </div>\n  <button id="NgNhP-button1" ion-button color="royal" block style="color:#FFFFFF;border-radius:5px 5px 5px 5px;">\n    Đăng nhập\n  </button>\n  <div class="spacer" style="height:10px;" id="NgNhP-spacer3"></div>\n  <div id="NgNhP-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#010002;font-size:14px;">\n      <strong>\n        Quên mật khẩu?\n      </strong>\n    </p>\n  </div>\n  <div id="NgNhP-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      -------- HOẶC --------\n    </p>\n  </div>\n  <div id="NgNhP-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      Bạn chưa có tài khoản?\n      <strong>\n        Hãy Đăng ký\n      </strong>\n    </p>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-nh-p\ng-nh-p.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], NgNhPPage);
+    return NgNhPPage;
+}());
+
+//# sourceMappingURL=ng-nh-p.js.map
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BITuyNThNhViNPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var BITuyNThNhViNPage = /** @class */ (function () {
+    function BITuyNThNhViNPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    BITuyNThNhViNPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-b-ituy-nth-nh-vi-n',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\b-ituy-nth-nh-vi-n\b-ituy-nth-nh-vi-n.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Bài tuyển thành viên\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="options"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page12">\n  <h4 id="bITuyNThNhViN-heading5" style="color:#B08EE6;text-align:center;">\n    Team 7269\n  </h4>\n  <img src="assets/img/pz9hn6fBSCqWYG6sNOdC_maxresdefault.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <h4 id="bITuyNThNhViN-heading7" style="color:#000000;">\n    Thông tin nhóm\n  </h4>\n  <ion-list id="bITuyNThNhViN-list15">\n    <ion-item color="royal" id="bITuyNThNhViN-list-item35">\n      Dòng nhạc\n      <ion-note item-right></ion-note>\n    </ion-item>\n    <ion-item color="royal" id="bITuyNThNhViN-list-item37">\n      Thành tích\n      <ion-note item-right></ion-note>\n    </ion-item>\n    <ion-item color="royal" id="bITuyNThNhViN-list-item38">\n      Điện thoại liên hệ\n      <ion-note item-right></ion-note>\n    </ion-item>\n  </ion-list>\n  <h4 id="bITuyNThNhViN-heading8" style="color:#000000;">\n    Thành viên\n  </h4>\n  <ion-list id="bITuyNThNhViN-list17">\n    <ion-item color="royal" id="bITuyNThNhViN-list-item40">\n      <ion-avatar item-left>\n        <img src="assets/img/Ax37UZzVQHy60U3bDeeX_71400558_2382733591945478_2803053334208970752_n.jpg" />\n      </ion-avatar>\n      <h2>\n        Phương Thi\n      </h2>\n    </ion-item>\n    <ion-item color="royal" id="bITuyNThNhViN-list-item41">\n      <ion-avatar item-left>\n        <img src="assets/img/AFHQR8d0QnlGXVry5YwC_3a616451af70492e1061.jpg" />\n      </ion-avatar>\n      <h2>\n        Quân Trinh\n      </h2>\n    </ion-item>\n  </ion-list>\n  <h4 id="bITuyNThNhViN-heading9" style="color:#000000;">\n    Vị trí ứng tuyển\n  </h4>\n  <ion-list id="bITuyNThNhViN-list18">\n    <ion-item color="royal" id="bITuyNThNhViN-list-item42">\n      <ion-icon name="musical-notes" item-left></ion-icon>\n      Hát chính\n    </ion-item>\n    <ion-item color="royal" id="bITuyNThNhViN-list-item44">\n      <ion-icon name="musical-note" item-left></ion-icon>\n      Trống, Guitar\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="width:300px;height:40px;" id="bITuyNThNhViN-spacer24"></div>\n  <button id="bITuyNThNhViN-button13" ion-button color="royal" block>\n    Ứng tuyển\n  </button>\n  <button id="bITuyNThNhViN-button11" ion-button color="royal" block>\n    Liên hệ\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\b-ituy-nth-nh-vi-n\b-ituy-nth-nh-vi-n.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], BITuyNThNhViNPage);
+    return BITuyNThNhViNPage;
+}());
+
+//# sourceMappingURL=b-ituy-nth-nh-vi-n.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgTuyNBandPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var NgTuyNBandPage = /** @class */ (function () {
+    function NgTuyNBandPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    NgTuyNBandPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ng-tuy-nband',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-tuy-nband\ng-tuy-nband.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Đăng tuyển band\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="options"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page10">\n  <h4 id="NgTuyNBand-heading10" style="color:#A091DE;text-align:center;">\n    Phòng trà Đồng Dao\n  </h4>\n  <img src="assets/img/slL67JqET1WZl2kugDGW_business.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="width:300px;height:13px;" id="NgTuyNBand-spacer25"></div>\n  <div class="spacer" style="width:300px;height:0px;" id="NgTuyNBand-spacer27"></div>\n  <ion-list id="NgTuyNBand-list26">\n    <ion-item color="royal" id="NgTuyNBand-list-item19">\n      <ion-icon name="map" item-left></ion-icon>\n      Phường 8, Đà Lạt\n    </ion-item>\n    <ion-item color="royal" id="NgTuyNBand-list-item28">\n      <ion-icon name="musical-notes" item-left></ion-icon>\n      Dàn trống có sẵn , guitar điện\n    </ion-item>\n    <ion-item color="royal" id="NgTuyNBand-list-item23">\n      <ion-icon name="microphone" item-left></ion-icon>\n      Loa, micro có sẵn\n    </ion-item>\n    <ion-item color="royal" id="NgTuyNBand-list-item30">\n      <ion-icon name="bitcoin" item-left></ion-icon>\n      1000000đ, có thể thỏa thuận\n    </ion-item>\n  </ion-list>\n  <div id="NgTuyNBand-markdown11" class="show-list-numbers-and-dots">\n    <h4>\n      Yêu cầu:\n    </h4>\n    <p style="color:#000000;">\n      Dòng nhạc accoustic - nhạc nhẹ.\n    </p>\n    <p style="color:#000000;">\n      Hòa đồng thân thiện.\n    </p>\n    <p style="color:#000000;">\n      Lương khởi điểm 10.000.000đ, có thê thỏa thuận\n    </p>\n  </div>\n  <div class="spacer" style="width:300px;height:5px;" id="NgTuyNBand-spacer22"></div>\n  <button id="NgTuyNBand-button8" ion-button color="royal" block>\n    Ứng tuyển\n  </button>\n  <button id="NgTuyNBand-button9" ion-button color="royal" block>\n    Liên hệ\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-tuy-nband\ng-tuy-nband.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], NgTuyNBandPage);
+    return NgTuyNBandPage;
+}());
+
+//# sourceMappingURL=ng-tuy-nband.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(220);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 220:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_ng_k_ng_k__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bands_co_bands_co__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_h_s_h_s__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_ch_nh_sahs_ch_nh_sahs__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_ng_bituy_nband_ng_bituy_nband__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_ng_tuy_nband_ng_tuy_nband__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_ng_tuy_nth_nh_vi_n_ng_tuy_nth_nh_vi_n__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_b_ituy_nth_nh_vi_n_b_ituy_nth_nh_vi_n__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_ng_gia_nh_pnh_m_ng_gia_nh_pnh_m__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_gia_nh_pnh_m_gia_nh_pnh_m__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__ = __webpack_require__(193);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__["a" /* NgNhPPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_ng_k_ng_k__["a" /* NgKPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_bands_co_bands_co__["a" /* BandsCOPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_h_s_h_s__["a" /* HSPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_ch_nh_sahs_ch_nh_sahs__["a" /* ChNhSAHSPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_ng_bituy_nband_ng_bituy_nband__["a" /* NgBITuyNBandPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_ng_tuy_nband_ng_tuy_nband__["a" /* NgTuyNBandPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_ng_tuy_nth_nh_vi_n_ng_tuy_nth_nh_vi_n__["a" /* NgTuyNThNhViNPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_b_ituy_nth_nh_vi_n_b_ituy_nth_nh_vi_n__["a" /* BITuyNThNhViNPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_ng_gia_nh_pnh_m_ng_gia_nh_pnh_m__["a" /* NgGiaNhPNhMPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_gia_nh_pnh_m_gia_nh_pnh_m__["a" /* GiaNhPNhMPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__["a" /* NgNhPPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_ng_k_ng_k__["a" /* NgKPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_bands_co_bands_co__["a" /* BandsCOPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_h_s_h_s__["a" /* HSPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_ch_nh_sahs_ch_nh_sahs__["a" /* ChNhSAHSPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_ng_bituy_nband_ng_bituy_nband__["a" /* NgBITuyNBandPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_ng_tuy_nband_ng_tuy_nband__["a" /* NgTuyNBandPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_ng_tuy_nth_nh_vi_n_ng_tuy_nth_nh_vi_n__["a" /* NgTuyNThNhViNPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_b_ituy_nth_nh_vi_n_b_ituy_nth_nh_vi_n__["a" /* BITuyNThNhViNPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_ng_gia_nh_pnh_m_ng_gia_nh_pnh_m__["a" /* NgGiaNhPNhMPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_gia_nh_pnh_m_gia_nh_pnh_m__["a" /* GiaNhPNhMPage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 263:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__["a" /* NgNhPPage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\app\app.html"*/'<ion-nav #mainContent [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 271:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgKPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var NgKPage = /** @class */ (function () {
+    function NgKPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    NgKPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ng-k',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-k\ng-k.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Đăng ký\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page3">\n  <img src="assets/img/5otX3UIPRZuCqlTJ3mcb_logo1.png" style="display:block;width:50%;height:;margin-left:auto;margin-right:auto;" />\n  <div id="NgK-container3">\n    <form id="NgK-form5">\n      <div class="spacer" style="width:300px;height:19px;" id="NgK-spacer33"></div>\n      <ion-item id="NgK-input8">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Tên đăng nhập"></ion-input>\n      </ion-item>\n      <ion-item id="NgK-input11">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Email"></ion-input>\n      </ion-item>\n      <ion-item id="NgK-input9">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Mật khẩu"></ion-input>\n      </ion-item>\n      <ion-item id="NgK-input10">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Nhập lại mật khẩu"></ion-input>\n      </ion-item>\n    </form>\n  </div>\n  <button id="NgK-button3" ion-button color="royal" block style="border-radius:5px 5px 5px 5px;">\n    Đăng ký\n  </button>\n  <div id="NgK-markdown14" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      -------- HOẶC --------\n    </p>\n  </div>\n  <div id="NgK-markdown8" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      Bạn đã là thành viên?\n      <strong>\n        Đăng nhập ngay\n      </strong>\n    </p>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-k\ng-k.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], NgKPage);
+    return NgKPage;
+}());
+
+//# sourceMappingURL=ng-k.js.map
+
+/***/ }),
+
+/***/ 272:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandsCOPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__h_s_h_s__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__b_ituy_nth_nh_vi_n_b_ituy_nth_nh_vi_n__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_tuy_nband_ng_tuy_nband__ = __webpack_require__(196);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var BandsCOPage = /** @class */ (function () {
+    function BandsCOPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    BandsCOPage.prototype.goToHS = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__h_s_h_s__["a" /* HSPage */]);
+    };
+    BandsCOPage.prototype.goToBITuyNThNhViN = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__b_ituy_nth_nh_vi_n_b_ituy_nth_nh_vi_n__["a" /* BITuyNThNhViNPage */]);
+    };
+    BandsCOPage.prototype.goToNgTuyNBand = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__ng_tuy_nband_ng_tuy_nband__["a" /* NgTuyNBandPage */]);
+    };
+    BandsCOPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-bands-co',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\bands-co\bands-co.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button icon-only>\n        <ion-icon name="add-circle"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      BandsCO\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="contact"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page4">\n  <ion-card id="bandsCO-card21">\n    <ion-list>\n      <ion-item color="royal" id="bandsCO-list-item9">\n        <ion-avatar item-left>\n          <img src="assets/img/HNSOusbR9GvcTPzFATNQ_avatar.jpg" />\n        </ion-avatar>\n        <h2>\n          Vũ Phạm\n        </h2>\n      </ion-item>\n      <img src="assets/img/yTpOLdi8ReWvJfDrgxxR_avatar.jpg" />\n      <ion-item color="royal" id="bandsCO-list-item10">\n        <ion-icon name="musical-notes" item-left></ion-icon>\n        Trống, Rap, Sáng tác\n      </ion-item>\n      <button id="bandsCO-button16" ion-button color="royal" block on-click="goToHS()">\n        Xem hồ sơ\n      </button>\n    </ion-list>\n  </ion-card>\n  <ion-card id="bandsCO-card24">\n    <ion-list>\n      <ion-item color="royal" id="bandsCO-list-item15">\n        <ion-avatar item-left>\n          <img src="assets/img/0GKR8nTBTCG1e3xWTWNM_bands.jpg" />\n        </ion-avatar>\n        <h2>\n          Foreigner band\n        </h2>\n      </ion-item>\n      <img src="assets/img/a6fX9VIaRlq1Hco5ys8K_bands.jpg" />\n      <ion-item color="royal" id="bandsCO-list-item16">\n        <ion-icon name="person-add" item-left></ion-icon>\n        vị trí 1, vị trí 2\n      </ion-item>\n      <button id="bandsCO-button17" ion-button color="royal" block on-click="goToBITuyNThNhViN()">\n        Xem chi tiết\n      </button>\n    </ion-list>\n  </ion-card>\n  <ion-card id="bandsCO-card25">\n    <ion-list>\n      <ion-item color="royal" id="bandsCO-list-item17">\n        <ion-avatar item-left>\n          <img src="assets/img/5rchU2TZikIPBdviTzeA_business.jpg" />\n        </ion-avatar>\n        <h2>\n          Phòng trà Đồng Dao\n        </h2>\n      </ion-item>\n      <img src="assets/img/nUipxvZ5QdiqVUEKUYMA_business.jpg" />\n      <ion-item color="royal" id="bandsCO-list-item18">\n        <ion-icon name="cash" item-left></ion-icon>\n        1.000.000 VNĐ\n      </ion-item>\n      <button id="bandsCO-button18" ion-button color="royal" block on-click="goToNgTuyNBand()">\n        Xem chi tiết\n      </button>\n    </ion-list>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\bands-co\bands-co.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], BandsCOPage);
+    return BandsCOPage;
+}());
+
+//# sourceMappingURL=bands-co.js.map
+
+/***/ }),
+
+/***/ 273:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChNhSAHSPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__h_s_h_s__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ChNhSAHSPage = /** @class */ (function () {
+    function ChNhSAHSPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ChNhSAHSPage.prototype.goToHS = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__h_s_h_s__["a" /* HSPage */]);
+    };
+    ChNhSAHSPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ch-nh-sahs',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ch-nh-sahs\ch-nh-sahs.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button>\n        Lưu\n      </button>\n    </ion-buttons>\n    <ion-title>\n      Chỉnh sửa hồ sơ\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page8">\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div id="chNhSAHS-markdown20" class="show-list-numbers-and-dots">\n    <h4>\n      Cơ bản\n    </h4>\n  </div>\n  <form id="chNhSAHS-form8">\n    <ion-item id="chNhSAHS-input18">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Họ và tên"></ion-input>\n    </ion-item>\n    <ion-item id="chNhSAHS-input17">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Email"></ion-input>\n    </ion-item>\n    <ion-item id="chNhSAHS-input19">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Số điện thoại"></ion-input>\n    </ion-item>\n    <ion-item id="chNhSAHS-input26">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thời gian rảnh"></ion-input>\n    </ion-item>\n  </form>\n  <div id="chNhSAHS-markdown21" class="show-list-numbers-and-dots">\n    <h4>\n      Kỹ năng\n    </h4>\n  </div>\n  <ion-list id="chNhSAHS-list13">\n    <ion-item id="chNhSAHS-select2">\n      <ion-label>\n        Nhạc cụ\n      </ion-label>\n      <ion-select name=""></ion-select>\n    </ion-item>\n    <ion-item id="chNhSAHS-checkbox1">\n      <ion-label>\n        Guitar\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="chNhSAHS-checkbox2">\n      <ion-label>\n        Cajon - Hithat\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="chNhSAHS-checkbox3">\n      <ion-label>\n        Piano\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="chNhSAHS-checkbox4">\n      <ion-label>\n        Beatbox\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="chNhSAHS-checkbox5">\n      <ion-label>\n        Vocal\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="chNhSAHS-input16">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Nhạc cụ khác"></ion-input>\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="height:10px;" id="chNhSAHS-spacer18"></div>\n  <form id="chNhSAHS-form9">\n    <ion-item id="chNhSAHS-input23">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n    </ion-item>\n  </form>\n  <button id="chNhSAHS-button5" ion-button color="royal" block on-click="goToHS()">\n    Lưu\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ch-nh-sahs\ch-nh-sahs.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], ChNhSAHSPage);
+    return ChNhSAHSPage;
+}());
+
+//# sourceMappingURL=ch-nh-sahs.js.map
+
+/***/ }),
+
+/***/ 274:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgBITuyNBandPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var NgBITuyNBandPage = /** @class */ (function () {
+    function NgBITuyNBandPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    NgBITuyNBandPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ng-bituy-nband',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-bituy-nband\ng-bituy-nband.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button icon-only>\n        <ion-icon name="arrow-back"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      Đăng bài tuyển band\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page9">\n  <img src="assets/img/1937J4eHTpKro6hVbQIe_thiet-ke-quan-cafe-hat-cho-nhau-nghe_101.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <form id="NgBITuyNBand-form12">\n    <ion-item id="NgBITuyNBand-input22">\n      <ion-label>\n        Tên\n      </ion-label>\n      <ion-input type="text" placeholder=""></ion-input>\n    </ion-item>\n    <ion-item id="NgBITuyNBand-input27">\n      <ion-label>\n        Địa điểm\n      </ion-label>\n      <ion-input type="text" placeholder=""></ion-input>\n    </ion-item>\n    <ion-item id="NgBITuyNBand-input28">\n      <ion-label>\n        Số điện thoại\n      </ion-label>\n      <ion-input type="text" placeholder=""></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="height:10px;" id="NgBITuyNBand-spacer13"></div>\n  <form id="NgBITuyNBand-form10">\n    <ion-item id="NgBITuyNBand-input12">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Nhạc cụ"></ion-input>\n    </ion-item>\n    <ion-item id="NgBITuyNBand-input13">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thiết bị âm thanh"></ion-input>\n    </ion-item>\n    <ion-item id="NgBITuyNBand-input14">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Tiền hợp đồng"></ion-input>\n    </ion-item>\n    <ion-item id="NgBITuyNBand-input15">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Yêu cầu"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="height:10px;" id="NgBITuyNBand-spacer14"></div>\n  <button id="NgBITuyNBand-button7" ion-button color="royal" block>\n    Đăng bài\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-bituy-nband\ng-bituy-nband.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], NgBITuyNBandPage);
+    return NgBITuyNBandPage;
+}());
+
+//# sourceMappingURL=ng-bituy-nband.js.map
+
+/***/ }),
+
+/***/ 275:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgTuyNThNhViNPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var NgTuyNThNhViNPage = /** @class */ (function () {
+    function NgTuyNThNhViNPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    NgTuyNThNhViNPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ng-tuy-nth-nh-vi-n',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-tuy-nth-nh-vi-n\ng-tuy-nth-nh-vi-n.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Đăng tuyển thành viên\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page11">\n  <form id="NgTuyNThNhViN-form11">\n    <ion-item id="NgTuyNThNhViN-input20">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Tên nhóm nhạc"></ion-input>\n    </ion-item>\n  </form>\n  <img src="assets/img/pz9hn6fBSCqWYG6sNOdC_maxresdefault.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <h4 id="NgTuyNThNhViN-heading2" style="color:#000000;">\n    Thông tin nhóm\n  </h4>\n  <ion-list id="NgTuyNThNhViN-list12" class="Thêm đâu giờ">\n    <ion-item id="NgTuyNThNhViN-select3">\n      <ion-label>\n        Dòng nhạc\n      </ion-label>\n      <ion-select name="">\n        <ion-option>\n          Rock\n        </ion-option>\n        <ion-option>\n          Acoustic\n        </ion-option>\n        <ion-option>\n          Pop\n        </ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item id="NgTuyNThNhViN-input21">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n    </ion-item>\n    <ion-item id="NgTuyNThNhViN-input25">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Điện thoại liên hệ"></ion-input>\n    </ion-item>\n  </ion-list>\n  <h4 id="NgTuyNThNhViN-heading3" style="color:#000000;">\n    Thành viên\n  </h4>\n  <ion-list id="NgTuyNThNhViN-list14">\n    <ion-item color="royal" id="NgTuyNThNhViN-list-item32">\n      <ion-avatar item-left>\n        <img src="assets/img/WU5k9QnATfutHv5g0YCN_71400558_2382733591945478_2803053334208970752_n.jpg" />\n      </ion-avatar>\n      <h2>\n        Phương Thi :))\n      </h2>\n    </ion-item>\n    <ion-item color="royal" id="NgTuyNThNhViN-list-item34">\n      <ion-avatar item-left>\n        <img src="assets/img/atW3oppTam2bIbsE3lPl_3a616451af70492e1061.jpg" />\n      </ion-avatar>\n      <h2>\n        Quân Trinh\n      </h2>\n    </ion-item>\n  </ion-list>\n  <button id="NgTuyNThNhViN-button12" ion-button outline color="royal" block style="border-radius:0px 0px 0px 0px;">\n    Thêm thành viên\n  </button>\n  <h4 id="NgTuyNThNhViN-heading4" style="color:#000000;">\n    Vị trí cần tuyển\n  </h4>\n  <form id="NgTuyNThNhViN-form13">\n    <ion-item id="NgTuyNThNhViN-select4">\n      <ion-label>\n        Sở trường\n      </ion-label>\n      <ion-select name="">\n        <ion-option>\n          Hát chính\n        </ion-option>\n        <ion-option>\n          Trống\n        </ion-option>\n        <ion-option>\n          Guitar\n        </ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item id="NgTuyNThNhViN-input24">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Khả năng khác"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:24px;" id="NgTuyNThNhViN-spacer23"></div>\n  <button id="NgTuyNThNhViN-button10" ion-button color="royal" block>\n    Đăng bài\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-tuy-nth-nh-vi-n\ng-tuy-nth-nh-vi-n.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], NgTuyNThNhViNPage);
+    return NgTuyNThNhViNPage;
+}());
+
+//# sourceMappingURL=ng-tuy-nth-nh-vi-n.js.map
+
+/***/ }),
+
+/***/ 276:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgGiaNhPNhMPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__h_s_h_s__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var NgGiaNhPNhMPage = /** @class */ (function () {
+    function NgGiaNhPNhMPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    NgGiaNhPNhMPage.prototype.goToHS = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__h_s_h_s__["a" /* HSPage */]);
+    };
+    NgGiaNhPNhMPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ng-gia-nh-pnh-m',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-gia-nh-pnh-m\ng-gia-nh-pnh-m.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Đăng gia nhập nhóm\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page13">\n  <ion-list id="NgGiaNhPNhM-list10">\n    <ion-item color="royal" on-click="goToHS()" id="NgGiaNhPNhM-list-item11">\n      <ion-thumbnail item-left>\n        <img src="assets/img/OVlezG5oS6WN0ld83Bz6_avatar.jpg" />\n      </ion-thumbnail>\n      <h2>\n        Vũ Phạm\n      </h2>\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="width:300px;height:15px;" id="NgGiaNhPNhM-spacer29"></div>\n  <form id="NgGiaNhPNhM-form20">\n    <div id="NgGiaNhPNhM-container6">\n      <h4 id="NgGiaNhPNhM-heading12" style="color:#974FA5;font-weight:400;">\n        Kinh nghiệm\n      </h4>\n      <ion-list id="NgGiaNhPNhM-list21">\n        <ion-item color="none" id="NgGiaNhPNhM-list-item31">\n          Các band đã từng chơi\n        </ion-item>\n      </ion-list>\n    </div>\n    <ion-item id="NgGiaNhPNhM-input40">\n      <ion-label>\n        Nguyện vọng\n      </ion-label>\n      <ion-input type="text" placeholder="Mong muốn của bản thân"></ion-input>\n    </ion-item>\n    <ion-item id="NgGiaNhPNhM-input41">\n      <ion-label>\n        Thời gian thuận tiện\n      </ion-label>\n      <ion-input type="text" placeholder="Ngày trong tuần"></ion-input>\n    </ion-item>\n  </form>\n  <button id="NgGiaNhPNhM-button20" ion-button color="royal" block>\n    Đăng bài\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\ng-gia-nh-pnh-m\ng-gia-nh-pnh-m.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], NgGiaNhPNhMPage);
+    return NgGiaNhPNhMPage;
+}());
+
+//# sourceMappingURL=ng-gia-nh-pnh-m.js.map
+
+/***/ }),
+
+/***/ 277:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GiaNhPNhMPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__h_s_h_s__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var GiaNhPNhMPage = /** @class */ (function () {
+    function GiaNhPNhMPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    GiaNhPNhMPage.prototype.goToHS = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__h_s_h_s__["a" /* HSPage */]);
+    };
+    GiaNhPNhMPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-gia-nh-pnh-m',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\gia-nh-pnh-m\gia-nh-pnh-m.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gia nhập nhóm\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page14">\n  <ion-list id="giaNhPNhM-list9">\n    <ion-item color="royal" on-click="goToHS()" id="giaNhPNhM-list-item14">\n      <ion-thumbnail item-left>\n        <img src="assets/img/OVlezG5oS6WN0ld83Bz6_avatar.jpg" />\n      </ion-thumbnail>\n      <h2>\n        Vũ Phạm\n      </h2>\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="width:300px;height:15px;" id="giaNhPNhM-spacer34"></div>\n  <form id="giaNhPNhM-form14">\n    <div id="giaNhPNhM-container7">\n      <h4 id="giaNhPNhM-heading14" style="color:#974FA5;font-weight:400;">\n        Kỹ năng\n      </h4>\n      <ion-list id="giaNhPNhM-list23">\n        <ion-item color="royal" id="giaNhPNhM-list-item20">\n          <ion-icon name="musical-notes" item-left></ion-icon>\n          Trống, Guitar\n        </ion-item>\n      </ion-list>\n      <ion-list id="giaNhPNhM-list25">\n        <ion-item color="royal" id="giaNhPNhM-list-item21">\n          <ion-icon name="star" item-left></ion-icon>\n          Licks, Bass, Hammer\n        </ion-item>\n      </ion-list>\n      <ion-list id="giaNhPNhM-list27">\n        <ion-item color="royal" id="giaNhPNhM-list-item22">\n          <ion-icon name="bookmark" item-left></ion-icon>\n          Giải nhất The Voice\n        </ion-item>\n      </ion-list>\n      <h4 id="giaNhPNhM-heading13" style="color:#974FA5;font-weight:400;">\n        Kinh nghiệm\n      </h4>\n      <ion-list id="giaNhPNhM-list19">\n        <ion-item color="none" id="giaNhPNhM-list-item24">\n          <ion-icon name="people" item-left></ion-icon>\n          7269 Bands, Cá hồi hoang\n        </ion-item>\n        <ion-item color="none" id="giaNhPNhM-list-item25">\n          <ion-icon name="paper-plane" item-left></ion-icon>\n          Mong muốn học hỏi và tiến bộ\n        </ion-item>\n        <ion-item color="none" id="giaNhPNhM-list-item26">\n          <ion-icon name="timer" item-left></ion-icon>\n          Thứ 7, chủ nhật\n        </ion-item>\n      </ion-list>\n    </div>\n  </form>\n  <button id="giaNhPNhM-button15" ion-button color="royal" block on-click="goToHS()">\n    Xem hồ sơ\n  </button>\n  <button id="giaNhPNhM-button19" ion-button color="royal" block>\n    Liên hệ\n  </button>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\gia-nh-pnh-m\gia-nh-pnh-m.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], GiaNhPNhMPage);
+    return GiaNhPNhMPage;
+}());
+
+//# sourceMappingURL=gia-nh-pnh-m.js.map
+
+/***/ }),
+
+/***/ 40:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HSPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HSPage = /** @class */ (function () {
+    function HSPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HSPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-h-s',template:/*ion-inline-start:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\h-s\h-s.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button></button>\n    </ion-buttons>\n    <ion-title>\n      Hồ sơ\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="create"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page5">\n  <div class="spacer" style="height:20px;" id="hS-spacer12"></div>\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="height:10px;" id="hS-spacer10"></div>\n  <h3 id="hS-heading11" style="color:#8A2CE2;text-align:center;">\n    Vũ Phạm\n  </h3>\n  <div id="hS-markdown15" class="show-list-numbers-and-dots">\n    <h4>\n      Cơ bản\n    </h4>\n  </div>\n  <ion-list id="hS-list8">\n    <ion-item color="royal" id="hS-list-item36">\n      <ion-icon name="person" item-left></ion-icon>\n      Phạm Trung Anh Vũ\n    </ion-item>\n    <ion-item color="royal" id="hS-list-item29">\n      <ion-icon name="phone-portrait" item-left></ion-icon>\n      0234567890\n    </ion-item>\n    <ion-item color="royal" id="hS-list-item46">\n      <ion-icon name="mail" item-left></ion-icon>\n      anhvupt@gmail.com\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="height:10px;" id="hS-spacer15"></div>\n  <div id="hS-markdown18" class="show-list-numbers-and-dots">\n    <h4>\n      Kỹ năng\n    </h4>\n  </div>\n  <ion-list id="hS-list11">\n    <ion-item color="royal" id="hS-list-item12">\n      <ion-icon name="musical-notes" item-left></ion-icon>\n      Trống, Guitar\n    </ion-item>\n    <ion-item color="royal" id="hS-list-item13">\n      <ion-icon name="star" item-left></ion-icon>\n      Licks, Bass, Hammer\n    </ion-item>\n  </ion-list>\n  <ion-list id="hS-list16">\n    <ion-item color="royal" id="hS-list-item43">\n      <ion-icon name="bookmark" item-left></ion-icon>\n      Giải nhất The Voice\n    </ion-item>\n  </ion-list>\n  <div id="hS-markdown17" class="show-list-numbers-and-dots">\n    <h4>\n      Tài khoản\n    </h4>\n  </div>\n  <button id="hS-button14" ion-button color="royal" block>\n    Đăng xuất\n  </button>\n  <div class="spacer" style="height:10px;" id="hS-spacer11"></div>\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Desktop\Workspace\IONIC\BandsCO\src\pages\h-s\h-s.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], HSPage);
+    return HSPage;
+}());
+
+//# sourceMappingURL=h-s.js.map
+
+/***/ })
+
+},[197]);
+//# sourceMappingURL=main.js.map
