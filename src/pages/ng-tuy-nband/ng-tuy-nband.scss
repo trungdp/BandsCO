@@ -1,7 +1,7 @@
 page-ng-tuy-nband {
     
     #NgTuyNBand-heading10{
-        color: blueviolet;
+        color:#9f1f63;
         text-align:center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -14,20 +14,24 @@ page-ng-tuy-nband {
         border-radius: 8px;;
     }
     .ion-item{
-        color: blueviolet;
+        color: #9f1f63;
     }
     .show-list-numbers-and-dots{
-        color: blueviolet;
+        color: #9f1f63;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #NgTuyNBand-button8{
         border-radius: 8px;
-        color: blueviolet;
-        border-color: blueviolet;;
+        color: #9f1f63;
+        border-color: #9f1f63;;
         border-radius:0px 0px 0px 0px;
     }
     #NgTuyNBand-button9{       
         border-radius: 8px;
-        background-color: blueviolet;
+        background-color: #9f1f63;
+    }
+    #NgTuyNBand-button9:hover{
+        background-color:#f7941e;
+      
     }
 }

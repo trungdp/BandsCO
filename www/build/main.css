@@ -25696,12 +25696,97 @@ ion-navbar.toolbar {
   min-height: 46px;
 }
 
+page-b-ituy-nth-nh-vi-n #bITuyNThNhViN-button11 {
+  background-color: #9f1f63;
+}
+
+page-b-ituy-nth-nh-vi-n #bITuyNThNhViN-button11:hover {
+  background-color: #f7941e;
+}
+
+page-b-ituy-nth-nh-vi-n #bITuyNThNhViN-button13 {
+  border-radius: 8px;
+  color: #9f1f63;
+  border-color: #9f1f63;
+  border-radius: 0px 0px 0px 0px;
+  background-color: #fff;
+}
+
+page-b-ituy-nth-nh-vi-n img {
+  border-radius: 8px;
+}
+
+page-b-ituy-nth-nh-vi-n h4 {
+  color: #9f1f63;
+}
+
+page-bands-co #bandsCO-button {
+  background-color: #9f1f63;
+}
+
+page-bands-co #bandsCO-button:hover {
+  background-color: #f7941e;
+}
+
+page-bands-co img {
+  border-radius: 8px;
+}
+
+page-ch-nh-sahs h4 {
+  color: #9f1f63;
+}
+
+page-ch-nh-sahs #chNhSAHS-button5 {
+  background-color: #9f1f63;
+}
+
+page-ch-nh-sahs #chNhSAHS-button5:hover {
+  background-color: #f7941e;
+}
+
+page-gia-nh-pnh-m h4 {
+  color: #9f1f63;
+  font-weight: 400;
+}
+
+page-gia-nh-pnh-m #giaNhPNhM-button {
+  background-color: #9f1f63;
+}
+
+page-gia-nh-pnh-m #giaNhPNhM-button:hover {
+  background-color: #f7941e;
+}
+
+page-h-s h4 {
+  color: #9f1f63;
+}
+
+page-h-s #hS-button14 {
+  background-color: #9f1f63;
+}
+
+page-h-s #hS-button14:hover {
+  background-color: #f7941e;
+}
+
+page-ng-bituy-nband #NgBITuyNBand-button7 {
+  background-color: #9f1f63;
+}
+
+page-ng-bituy-nband #NgBITuyNBand-button7:hover {
+  background-color: #f7941e;
+}
+
 page-ng-gia-nh-pnh-m .img {
   border-radius: 20px;
 }
 
 page-ng-gia-nh-pnh-m #NgGiaNhPNhM-button20 {
-  background-color: blueviolet;
+  background-color: #9f1f63;
+}
+
+page-ng-gia-nh-pnh-m #NgGiaNhPNhM-button20:hover {
+  background-color: #f7941e;
 }
 
 page-ng-gia-nh-pnh-m #label {
@@ -25710,18 +25795,26 @@ page-ng-gia-nh-pnh-m #label {
 }
 
 page-ng-k #NgK-button3 {
-  background-color: blueviolet;
+  background-color: #9f1f63;
   border-radius: 8px;
+}
+
+page-ng-k #NgK-button3:hover {
+  background-color: #f7941e;
 }
 
 page-ng-nh-p #NgNhP-button1 {
   color: #FFFFFF;
   border-radius: 8px;
-  background-color: blueviolet;
+  background-color: #9f1f63;
+}
+
+page-ng-nh-p #NgNhP-button1:hover {
+  background-color: #f7941e;
 }
 
 page-ng-tuy-nband #NgTuyNBand-heading10 {
-  color: blueviolet;
+  color: #9f1f63;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -25736,24 +25829,28 @@ page-ng-tuy-nband .img-band {
 }
 
 page-ng-tuy-nband .ion-item {
-  color: blueviolet;
+  color: #9f1f63;
 }
 
 page-ng-tuy-nband .show-list-numbers-and-dots {
-  color: blueviolet;
+  color: #9f1f63;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 page-ng-tuy-nband #NgTuyNBand-button8 {
   border-radius: 8px;
-  color: blueviolet;
-  border-color: blueviolet;
+  color: #9f1f63;
+  border-color: #9f1f63;
   border-radius: 0px 0px 0px 0px;
 }
 
 page-ng-tuy-nband #NgTuyNBand-button9 {
   border-radius: 8px;
-  background-color: blueviolet;
+  background-color: #9f1f63;
+}
+
+page-ng-tuy-nband #NgTuyNBand-button9:hover {
+  background-color: #f7941e;
 }
 
 page-ng-tuy-nth-nh-vi-n .img-band {
@@ -25767,17 +25864,25 @@ page-ng-tuy-nth-nh-vi-n .img-member:hover .child, page-ng-tuy-nth-nh-vi-n .img-b
 
 page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button10 {
   border-radius: 8px;
-  background-color: blueviolet;
+  background-color: #9f1f63;
+}
+
+page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button10:hover {
+  background-color: #f7941e;
 }
 
 page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button12 {
   border-radius: 8px;
-  color: blueviolet;
-  border-color: blueviolet;
+  color: #9f1f63;
+  border-color: #9f1f63;
   border-radius: 0px 0px 0px 0px;
 }
 
 page-ng-tuy-nth-nh-vi-n h4 {
-  color: blueviolet;
+  color: #9f1f63;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+page-ng-tuy-nth-nh-vi-n ion-option {
+  font-family: SFNSDisplay;
 }

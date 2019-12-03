@@ -8,9 +8,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { NgNhPPage } from '../pages/ng-nh-p/ng-nh-p';
 
 
-
-
-
 @Component({
   templateUrl: 'app.html'
 })

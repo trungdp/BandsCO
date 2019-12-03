@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavPush } from 'ionic-angular';
 import { HSPage } from '../h-s/h-s';
 
 @Component({
