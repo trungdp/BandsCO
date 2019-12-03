@@ -38,10 +38,9 @@ webpackEmptyAsyncContext.id = 150;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChNhSAHSPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgNhPPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__h_s_h_s__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -53,26 +52,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-var ChNhSAHSPage = /** @class */ (function () {
-    function ChNhSAHSPage(navCtrl) {
+var NgNhPPage = /** @class */ (function () {
+    function NgNhPPage(navCtrl) {
         this.navCtrl = navCtrl;
     }
-    ChNhSAHSPage.prototype.goToHS = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__h_s_h_s__["a" /* HSPage */]);
-    };
-    ChNhSAHSPage = __decorate([
+    NgNhPPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-ch-nh-sahs',template:/*ion-inline-start:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ch-nh-sahs\ch-nh-sahs.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons start>\n\n      <button ion-button>\n\n        Lưu\n\n      </button>\n\n    </ion-buttons>\n\n    <ion-title>\n\n      Chỉnh sửa hồ sơ\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button></button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page8">\n\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <div id="chNhSAHS-markdown20" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Cơ bản\n\n    </h4>\n\n  </div>\n\n  <form id="chNhSAHS-form8">\n\n    <ion-item id="chNhSAHS-input18">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Họ và tên"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input17">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Email"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input19">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Số điện thoại"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input26">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Thời gian rảnh"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <div id="chNhSAHS-markdown21" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Kỹ năng\n\n    </h4>\n\n  </div>\n\n  <ion-list id="chNhSAHS-list13">\n\n    <ion-item id="chNhSAHS-select2">\n\n      <ion-label>\n\n        Nhạc cụ\n\n      </ion-label>\n\n      <ion-select name=""></ion-select>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox1">\n\n      <ion-label>\n\n        Guitar\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox2">\n\n      <ion-label>\n\n        Cajon - Hithat\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox3">\n\n      <ion-label>\n\n        Piano\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox4">\n\n      <ion-label>\n\n        Beatbox\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox5">\n\n      <ion-label>\n\n        Vocal\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input16">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Nhạc cụ khác"></ion-input>\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="height:10px;" id="chNhSAHS-spacer18"></div>\n\n  <form id="chNhSAHS-form9">\n\n    <ion-item id="chNhSAHS-input23">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <button id="chNhSAHS-button5" ion-button color="royal" block on-click="goToHS()">\n\n    Lưu\n\n  </button>\n\n</ion-content>'/*ion-inline-end:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ch-nh-sahs\ch-nh-sahs.html"*/
+            selector: 'page-ng-nh-p',template:/*ion-inline-start:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ng-nh-p\ng-nh-p.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Đăng nhập\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page1">\n\n  <img src="assets/img/nHBkB8CHSCqJLzPGIgz3_logo1.png" style="display:block;width:50%;height:;margin-left:auto;margin-right:auto;" />\n\n  <div id="NgNhP-container1">\n\n    <form id="NgNhP-form3">\n\n      <div class="spacer" style="width:300px;height:20px;" id="NgNhP-spacer31"></div>\n\n      <ion-item id="NgNhP-input4">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Tên đăng nhập"></ion-input>\n\n      </ion-item>\n\n      <ion-item id="NgNhP-input5">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Mật khẩu"></ion-input>\n\n      </ion-item>\n\n    </form>\n\n  </div>\n\n  <button id="NgNhP-button1" ion-button color="royal" block style="">\n\n    Đăng nhập\n\n  </button>\n\n  <div class="spacer" style="height:10px;" id="NgNhP-spacer3"></div>\n\n  <div id="NgNhP-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#010002;font-size:14px;">\n\n      <strong>\n\n        Quên mật khẩu?\n\n      </strong>\n\n    </p>\n\n  </div>\n\n  <div id="NgNhP-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      -------- HOẶC --------\n\n    </p>\n\n  </div>\n\n  <div id="NgNhP-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      Bạn chưa có tài khoản?\n\n      <strong style="color: blueviolet;">\n\n        Hãy Đăng ký\n\n      </strong>\n\n    </p>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ng-nh-p\ng-nh-p.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
-    ], ChNhSAHSPage);
-    return ChNhSAHSPage;
+    ], NgNhPPage);
+    return NgNhPPage;
 }());
 
-//# sourceMappingURL=ch-nh-sahs.js.map
+//# sourceMappingURL=ng-nh-p.js.map
 
 /***/ }),
 
@@ -169,11 +162,11 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_ng_k_ng_k__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bands_co_bands_co__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_ng_k_ng_k__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bands_co_bands_co__ = __webpack_require__(272);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_h_s_h_s__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_ch_nh_sahs_ch_nh_sahs__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_ch_nh_sahs_ch_nh_sahs__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_ng_bituy_nband_ng_bituy_nband__ = __webpack_require__(274);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_ng_tuy_nband_ng_tuy_nband__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_ng_tuy_nth_nh_vi_n_ng_tuy_nth_nh_vi_n__ = __webpack_require__(275);
@@ -268,7 +261,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_ng_nh_p_ng_nh_p__ = __webpack_require__(194);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -296,10 +289,9 @@ var MyApp = /** @class */ (function () {
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\app\app.html"*/'<ion-nav #mainContent [root]="rootPage"></ion-nav>'/*ion-inline-end:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -307,41 +299,6 @@ var MyApp = /** @class */ (function () {
 /***/ }),
 
 /***/ 271:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgNhPPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var NgNhPPage = /** @class */ (function () {
-    function NgNhPPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    NgNhPPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-ng-nh-p',template:/*ion-inline-start:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ng-nh-p\ng-nh-p.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Đăng nhập\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page1">\n\n  <img src="assets/img/nHBkB8CHSCqJLzPGIgz3_logo1.png" style="display:block;width:50%;height:;margin-left:auto;margin-right:auto;" />\n\n  <div id="NgNhP-container1">\n\n    <form id="NgNhP-form3">\n\n      <div class="spacer" style="width:300px;height:20px;" id="NgNhP-spacer31"></div>\n\n      <ion-item id="NgNhP-input4">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Tên đăng nhập"></ion-input>\n\n      </ion-item>\n\n      <ion-item id="NgNhP-input5">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Mật khẩu"></ion-input>\n\n      </ion-item>\n\n    </form>\n\n  </div>\n\n  <button id="NgNhP-button1" ion-button color="royal" block style="">\n\n    Đăng nhập\n\n  </button>\n\n  <div class="spacer" style="height:10px;" id="NgNhP-spacer3"></div>\n\n  <div id="NgNhP-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#010002;font-size:14px;">\n\n      <strong>\n\n        Quên mật khẩu?\n\n      </strong>\n\n    </p>\n\n  </div>\n\n  <div id="NgNhP-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      -------- HOẶC --------\n\n    </p>\n\n  </div>\n\n  <div id="NgNhP-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      Bạn chưa có tài khoản?\n\n      <strong style="color: blueviolet;">\n\n        Hãy Đăng ký\n\n      </strong>\n\n    </p>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ng-nh-p\ng-nh-p.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
-    ], NgNhPPage);
-    return NgNhPPage;
-}());
-
-//# sourceMappingURL=ng-nh-p.js.map
-
-/***/ }),
-
-/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -376,7 +333,7 @@ var NgKPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 273:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -429,6 +386,48 @@ var BandsCOPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=bands-co.js.map
+
+/***/ }),
+
+/***/ 273:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChNhSAHSPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__h_s_h_s__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ChNhSAHSPage = /** @class */ (function () {
+    function ChNhSAHSPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ChNhSAHSPage.prototype.goToHS = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__h_s_h_s__["a" /* HSPage */]);
+    };
+    ChNhSAHSPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ch-nh-sahs',template:/*ion-inline-start:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ch-nh-sahs\ch-nh-sahs.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons start>\n\n      <button ion-button>\n\n        Lưu\n\n      </button>\n\n    </ion-buttons>\n\n    <ion-title>\n\n      Chỉnh sửa hồ sơ\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button></button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page8">\n\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <div id="chNhSAHS-markdown20" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Cơ bản\n\n    </h4>\n\n  </div>\n\n  <form id="chNhSAHS-form8">\n\n    <ion-item id="chNhSAHS-input18">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Họ và tên"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input17">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Email"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input19">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Số điện thoại"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input26">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Thời gian rảnh"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <div id="chNhSAHS-markdown21" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Kỹ năng\n\n    </h4>\n\n  </div>\n\n  <ion-list id="chNhSAHS-list13">\n\n    <ion-item id="chNhSAHS-select2">\n\n      <ion-label>\n\n        Nhạc cụ\n\n      </ion-label>\n\n      <ion-select name=""></ion-select>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox1">\n\n      <ion-label>\n\n        Guitar\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox2">\n\n      <ion-label>\n\n        Cajon - Hithat\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox3">\n\n      <ion-label>\n\n        Piano\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox4">\n\n      <ion-label>\n\n        Beatbox\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-checkbox5">\n\n      <ion-label>\n\n        Vocal\n\n      </ion-label>\n\n      <ion-checkbox></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="chNhSAHS-input16">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Nhạc cụ khác"></ion-input>\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="height:10px;" id="chNhSAHS-spacer18"></div>\n\n  <form id="chNhSAHS-form9">\n\n    <ion-item id="chNhSAHS-input23">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <button id="chNhSAHS-button5" ion-button color="royal" block on-click="goToHS()">\n\n    Lưu\n\n  </button>\n\n</ion-content>'/*ion-inline-end:"D:\HocTap\LapTrinhDiDong\DuAn\BandsCO\src\pages\ch-nh-sahs\ch-nh-sahs.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], ChNhSAHSPage);
+    return ChNhSAHSPage;
+}());
+
+//# sourceMappingURL=ch-nh-sahs.js.map
 
 /***/ }),
 
