@@ -6,8 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 
 import { NgNhPPage } from '../pages/ng-nh-p/ng-nh-p';
-import { BITuyNThNhViNPage } from '../pages/b-ituy-nth-nh-vi-n/b-ituy-nth-nh-vi-n';
-import { ChNhSAHSPage } from '../pages/ch-nh-sahs/ch-nh-sahs';
+
 
 
 @Component({
@@ -15,8 +14,8 @@ import { ChNhSAHSPage } from '../pages/ch-nh-sahs/ch-nh-sahs';
 })
 export class MyApp {
   
-    // rootPage:any = NgNhPPage;
-    rootPage:any = ChNhSAHSPage;
+    rootPage:any = NgNhPPage;
+    
    
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
