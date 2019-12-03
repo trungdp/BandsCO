@@ -25744,6 +25744,27 @@ page-ch-nh-sahs #chNhSAHS-button5:hover {
   background-color: #f7941e;
 }
 
+page-ch-nh-sahs .item-md.item-input.item-input-has-focus .item-inner, page-ch-nh-sahs .item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #9f1f63;
+  -webkit-box-shadow: inset 0 -1px 0 0 #9f1f63;
+  box-shadow: inset 0 -1px 0 0 #9f1f63;
+}
+
+page-ch-nh-sahs .checkbox-md .checkbox-checked {
+  background-color: #9f1f63;
+  border-color: #9f1f63;
+}
+
+page-ch-nh-sahs .list-md .item-input.item-input-has-focus:last-child, page-ch-nh-sahs .list-md .item-input.input-has-focus:last-child {
+  border-bottom-color: #9f1f63;
+  -webkit-box-shadow: inset 0 -1px 0 0 #9f1f63;
+  box-shadow: inset 0 -1px 0 0 #9f1f63;
+}
+
+page-ch-nh-sahs button#chNhSAHS-button5 {
+  margin-top: 20px;
+}
+
 page-gia-nh-pnh-m h4 {
   color: #9f1f63;
   font-weight: 400;
@@ -25811,6 +25832,12 @@ page-ng-nh-p #NgNhP-button1 {
 
 page-ng-nh-p #NgNhP-button1:hover {
   background-color: #f7941e;
+}
+
+page-ng-nh-p .item-md.item-input.item-input-has-focus .item-inner, page-ng-nh-p .item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #9f1f63;
+  -webkit-box-shadow: inset 0 -1px 0 0 #9f1f63;
+  box-shadow: inset 0 -1px 0 0 #9f1f63;
 }
 
 page-ng-tuy-nband #NgTuyNBand-heading10 {
