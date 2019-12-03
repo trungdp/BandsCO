@@ -9,12 +9,15 @@ import { NgNhPPage } from '../pages/ng-nh-p/ng-nh-p';
 
 
 
+
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   
     rootPage:any = NgNhPPage;
+   
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

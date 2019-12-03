@@ -1,3 +1,27 @@
 page-ng-tuy-nth-nh-vi-n {
+    .img-band{
+        border-radius: 8px;
+    }
+    .img-member:hover .child,.img-band:focus  {
+      transform: scale(1.2);
+    }
+
+    #NgTuyNThNhViN-button10{
+        border-radius: 8px;
+        background-color: blueviolet;
+    }
+
+    #NgTuyNThNhViN-button12{
+        border-radius: 8px;
+        color: blueviolet;
+        border-color: blueviolet;;
+        border-radius:0px 0px 0px 0px;
+    }
+
+    h4 {
+        color: blueviolet;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
 
 }

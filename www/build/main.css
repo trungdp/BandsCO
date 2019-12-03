@@ -25695,3 +25695,89 @@ ion-navbar.toolbar {
   padding-bottom: 4px;
   min-height: 46px;
 }
+
+page-ng-gia-nh-pnh-m .img {
+  border-radius: 20px;
+}
+
+page-ng-gia-nh-pnh-m #NgGiaNhPNhM-button20 {
+  background-color: blueviolet;
+}
+
+page-ng-gia-nh-pnh-m #label {
+  font-weight: bold;
+  color: black;
+}
+
+page-ng-k #NgK-button3 {
+  background-color: blueviolet;
+  border-radius: 8px;
+}
+
+page-ng-nh-p #NgNhP-button1 {
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: blueviolet;
+}
+
+page-ng-tuy-nband #NgTuyNBand-heading10 {
+  color: blueviolet;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+page-ng-tuy-nband .img-band {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+page-ng-tuy-nband .ion-item {
+  color: blueviolet;
+}
+
+page-ng-tuy-nband .show-list-numbers-and-dots {
+  color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+page-ng-tuy-nband #NgTuyNBand-button8 {
+  border-radius: 8px;
+  color: blueviolet;
+  border-color: blueviolet;
+  border-radius: 0px 0px 0px 0px;
+}
+
+page-ng-tuy-nband #NgTuyNBand-button9 {
+  border-radius: 8px;
+  background-color: blueviolet;
+}
+
+page-ng-tuy-nth-nh-vi-n .img-band {
+  border-radius: 8px;
+}
+
+page-ng-tuy-nth-nh-vi-n .img-member:hover .child, page-ng-tuy-nth-nh-vi-n .img-band:focus {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button10 {
+  border-radius: 8px;
+  background-color: blueviolet;
+}
+
+page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button12 {
+  border-radius: 8px;
+  color: blueviolet;
+  border-color: blueviolet;
+  border-radius: 0px 0px 0px 0px;
+}
+
+page-ng-tuy-nth-nh-vi-n h4 {
+  color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
