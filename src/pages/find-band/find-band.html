@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      FindBand
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page9">
+  <img src="assets/img/1937J4eHTpKro6hVbQIe_thiet-ke-quan-cafe-hat-cho-nhau-nghe_101.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  <form id="FindBand-form12">
+    <ion-item id="FindBand-input22">
+      <ion-label>
+        Tên
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="FindBand-input27">
+      <ion-label>
+        Địa điểm
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="FindBand-input28">
+      <ion-label>
+        Số điện thoại
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+  </form>
+  <div class="spacer" style="height:10px;" id="FindBand-spacer13"></div>
+  <form id="FindBand-form10">
+    <ion-item id="FindBand-input12">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Nhạc cụ"></ion-input>
+    </ion-item>
+    <ion-item id="FindBand-input13">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Thiết bị âm thanh"></ion-input>
+    </ion-item>
+    <ion-item id="FindBand-input14">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Tiền hợp đồng"></ion-input>
+    </ion-item>
+    <ion-item id="FindBand-input15">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Yêu cầu"></ion-input>
+    </ion-item>
+  </form>
+  <div class="spacer" style="height:10px;" id="FindBand-spacer14"></div>
+  <button id="FindBand-button7" ion-button color="royal" block (click)="goToFindBandPost()">
+    Đăng bài
+  </button>
+</ion-content>
+<!--footer-->
+<ion-footer>
+    <ion-navbar>
+      <ion-row>
+        <ion-buttons col text-center>
+          <button mx-auto ion-button icon-only on-click="goToHome()">
+            <ion-icon name="home"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-buttons col text-center>
+          <button mx-auto ion-button icon-only (click)="goToMenu()">
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-row>
+    </ion-navbar>
+  </ion-footer>

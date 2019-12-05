@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 
 
-import { NgNhPPage } from '../pages/ng-nh-p/ng-nh-p';
+import { LoginPage } from '../pages/login/login';
 
 
 
@@ -14,9 +14,7 @@ import { NgNhPPage } from '../pages/ng-nh-p/ng-nh-p';
 })
 export class MyApp {
   
-    rootPage:any = NgNhPPage;
-    
-   
+    rootPage:any = LoginPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
