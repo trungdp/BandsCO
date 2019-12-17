@@ -13,6 +13,7 @@
     </ion-buttons>
   </ion-navbar>
 </ion-header>
+
 <ion-content padding id="page8">
   <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />
   <div id="editProfile-markdown20" class="show-list-numbers-and-dots">
@@ -20,22 +21,22 @@
       Cơ bản
     </h4>
   </div>
-  <form id="editProfile-form8">
+  <form id="editProfile-form8" [formGroup]="formEdit">
     <ion-item id="editProfile-input18">
       <ion-label></ion-label>
-      <ion-input type="text" placeholder="Họ và tên"></ion-input>
+      <ion-input formControlName="name" type="text" placeholder="Họ và tên"></ion-input>
     </ion-item>
     <ion-item id="editProfile-input17">
       <ion-label></ion-label>
-      <ion-input type="text" placeholder="Email"></ion-input>
+      <ion-input formControlName="email" type="text" placeholder="Email"></ion-input>
     </ion-item>
     <ion-item id="editProfile-input19">
       <ion-label></ion-label>
-      <ion-input type="text" placeholder="Số điện thoại"></ion-input>
+      <ion-input formControlName="phone" type="text" placeholder="Số điện thoại"></ion-input>
     </ion-item>
     <ion-item id="editProfile-input26">
       <ion-label></ion-label>
-      <ion-input type="text" placeholder="Thời gian rảnh"></ion-input>
+      <ion-input formControlName="freetime" type="text" placeholder="Thời gian rảnh"></ion-input>
     </ion-item>
   </form>
   <div id="editProfile-markdown21" class="show-list-numbers-and-dots">
@@ -50,46 +51,22 @@
       </ion-label>
       <ion-select name=""></ion-select>
     </ion-item>
-    <ion-item id="editProfile-checkbox1">
+    <ion-item id="editProfile-checkbox1" *ngFor ="let item of items">
       <ion-label>
-        Guitar
+        {{item.name}}
       </ion-label>
-      <ion-checkbox></ion-checkbox>
-    </ion-item>
-    <ion-item id="editProfile-checkbox2">
-      <ion-label>
-        Cajon - Hithat
-      </ion-label>
-      <ion-checkbox></ion-checkbox>
-    </ion-item>
-    <ion-item id="editProfile-checkbox3">
-      <ion-label>
-        Piano
-      </ion-label>
-      <ion-checkbox></ion-checkbox>
-    </ion-item>
-    <ion-item id="editProfile-checkbox4">
-      <ion-label>
-        Beatbox
-      </ion-label>
-      <ion-checkbox></ion-checkbox>
-    </ion-item>
-    <ion-item id="editProfile-checkbox5">
-      <ion-label>
-        Vocal
-      </ion-label>
-      <ion-checkbox></ion-checkbox>
+      <ion-checkbox  [(ngModel)]="item.isChecked" (ionChange)="check(item.isChecked)"></ion-checkbox>
     </ion-item>
     <ion-item id="editProfile-input16">
       <ion-label></ion-label>
-      <ion-input type="text" placeholder="Nhạc cụ khác"></ion-input>
+      <ion-input type="text" [(ngModel)]="OrderMusical" name="OrderMusical" placeholder="Nhạc cụ khác"></ion-input>
     </ion-item>
   </ion-list>
   <div class="spacer" style="height:10px;" id="editProfile-spacer18"></div>
   <form id="editProfile-form9">
     <ion-item id="editProfile-input23">
       <ion-label></ion-label>
-      <ion-input type="text" placeholder="Thành tích"></ion-input>
+      <ion-input [(ngModel)]="Achievements" name="Achievements"  type="text" placeholder="Thành tích"></ion-input>
     </ion-item>
   </form>
   <button id="editProfile-button5" ion-button color="royal" block on-click="goToProfile()">

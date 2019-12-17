@@ -4,88 +4,12 @@ webpackJsonp([0],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_post_find_member_post__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__signup_signup__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(16);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, fromBuilder) {
-        this.navCtrl = navCtrl;
-        this.fromBuilder = fromBuilder;
-        this.loginForm = fromBuilder.group({
-            userName: ['', __WEBPACK_IMPORTED_MODULE_6__angular_forms__["f" /* Validators */].required],
-            password: ['', __WEBPACK_IMPORTED_MODULE_6__angular_forms__["f" /* Validators */].required]
-        });
-    }
-    LoginPage.prototype.goToBandsCO = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__["a" /* BandsCOPage */]);
-    };
-    LoginPage.prototype.goToProfile = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
-    };
-    LoginPage.prototype.goToFindMemberPost = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__find_member_post_find_member_post__["a" /* FindMemberPostPage */]);
-    };
-    LoginPage.prototype.goToSignup = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__signup_signup__["a" /* SignupPage */]);
-    };
-    LoginPage.prototype.checkLogin = function () {
-        console.log(this.loginForm.value);
-        var userName = this.loginForm.value.userName;
-        var password = this.loginForm.value.password;
-        console.log('user name: ' + userName);
-        console.log('password: ' + password);
-    };
-    LoginPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\login\login.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Login\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page1">\n  <div text-center>\n    <img src="assets/img/nHBkB8CHSCqJLzPGIgz3_logo1.png"\n      style="display:block;width:100%;height:;margin-left:auto;margin-right:auto;" />\n  </div>\n  <div id="login-container1">\n    <form id="login-form3" [formGroup]="loginForm" (submit)="checkLogin()">\n      <div class="spacer" style="width:300px;height:20px;" id="login-spacer31"></div>\n      <ion-item id="login-input4">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Tên đăng nhập" formControlName="userName"></ion-input>\n      </ion-item>\n      <ion-item id="login-input5">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Mật khẩu" formControlName="password"></ion-input>\n      </ion-item>\n    </form>\n  </div>\n  <button id="login-button1" ion-button color="royal" block style="color:#FFFFFF;border-radius:5px 5px 5px 5px;"\n    type="submit">\n    Đăng nhập\n  </button>\n  <div class="spacer" style="height:10px;" id="login-spacer3"></div>\n  <div id="login-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#010002;font-size:14px;">\n      <strong>\n        Quên mật khẩu?\n      </strong>\n    </p>\n  </div>\n  <div id="login-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      -------- HOẶC --------\n    </p>\n  </div>\n  <div id="login-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      Bạn chưa có tài khoản?\n      <strong (click)="goToSignup()">\n        Hãy Đăng ký\n      </strong>\n    </p>\n  </div>\n</ion-content>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\login\login.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_6__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__angular_forms__["a" /* FormBuilder */]) === "function" && _b || Object])
-    ], LoginPage);
-    return LoginPage;
-    var _a, _b;
-}());
-
-//# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 106:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FindBandPostPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_band_find_band__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_band_find_band__ = __webpack_require__(56);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -123,7 +47,7 @@ var FindBandPostPage = /** @class */ (function () {
     };
     FindBandPostPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-find-band-post',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-band-post\find-band-post.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      FindBandPost\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="goToFindBand()">\n        <ion-icon name="options"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page10">\n  <h4 id="FindBandPost-heading10" style="color:#A091DE;text-align:center;">\n    Phòng trà Đồng Dao\n  </h4>\n  <img src="assets/img/slL67JqET1WZl2kugDGW_business.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="width:300px;height:13px;" id="FindBandPost-spacer25"></div>\n  <div class="spacer" style="width:300px;height:0px;" id="FindBandPost-spacer27"></div>\n  <ion-list id="FindBandPost-list26">\n    <ion-item color="royal" id="FindBandPost-list-item19">\n      <ion-icon name="map" item-left></ion-icon>\n      Phường 8, Đà Lạt\n    </ion-item>\n    <ion-item color="royal" id="FindBandPost-list-item28">\n      <ion-icon name="musical-notes" item-left></ion-icon>\n      Dàn trống có sẵn , guitar điện\n    </ion-item>\n    <ion-item color="royal" id="FindBandPost-list-item23">\n      <ion-icon name="microphone" item-left></ion-icon>\n      Loa, micro có sẵn\n    </ion-item>\n    <ion-item color="royal" id="FindBandPost-list-item30">\n      <ion-icon name="bitcoin" item-left></ion-icon>\n      1000000đ, có thể thỏa thuận\n    </ion-item>\n  </ion-list>\n  <div id="FindBandPost-markdown11" class="show-list-numbers-and-dots">\n    <h4>\n      Yêu cầu:\n    </h4>\n    <p style="color:#000000;">\n      Dòng nhạc accoustic - nhạc nhẹ.\n    </p>\n    <p style="color:#000000;">\n      Hòa đồng thân thiện.\n    </p>\n    <p style="color:#000000;">\n      Lương khởi điểm 10.000.000đ, có thê thỏa thuận\n    </p>\n  </div>\n  <div class="spacer" style="width:300px;height:5px;" id="FindBandPost-spacer22"></div>\n  <button id="FindBandPost-button8" ion-button color="royal" block>\n    Ứng tuyển\n  </button>\n  <button id="FindBandPost-button9" ion-button color="royal" block>\n    Liên hệ\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-band-post\find-band-post.html"*/
+            selector: 'page-find-band-post',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\find-band-post\find-band-post.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      FindBandPost\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button icon-only (click)="goToFindBand()">\n\n        <ion-icon name="options"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page10">\n\n  <h4 id="FindBandPost-heading10" style="color:#A091DE;text-align:center;">\n\n    Phòng trà Đồng Dao\n\n  </h4>\n\n  <img src="assets/img/slL67JqET1WZl2kugDGW_business.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <div class="spacer" style="width:300px;height:13px;" id="FindBandPost-spacer25"></div>\n\n  <div class="spacer" style="width:300px;height:0px;" id="FindBandPost-spacer27"></div>\n\n  <ion-list id="FindBandPost-list26">\n\n    <ion-item color="royal" id="FindBandPost-list-item19">\n\n      <ion-icon name="map" item-left></ion-icon>\n\n      Phường 8, Đà Lạt\n\n    </ion-item>\n\n    <ion-item color="royal" id="FindBandPost-list-item28">\n\n      <ion-icon name="musical-notes" item-left></ion-icon>\n\n      Dàn trống có sẵn , guitar điện\n\n    </ion-item>\n\n    <ion-item color="royal" id="FindBandPost-list-item23">\n\n      <ion-icon name="microphone" item-left></ion-icon>\n\n      Loa, micro có sẵn\n\n    </ion-item>\n\n    <ion-item color="royal" id="FindBandPost-list-item30">\n\n      <ion-icon name="bitcoin" item-left></ion-icon>\n\n      1000000đ, có thể thỏa thuận\n\n    </ion-item>\n\n  </ion-list>\n\n  <div id="FindBandPost-markdown11" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Yêu cầu:\n\n    </h4>\n\n    <p style="color:#000000;">\n\n      Dòng nhạc accoustic - nhạc nhẹ.\n\n    </p>\n\n    <p style="color:#000000;">\n\n      Hòa đồng thân thiện.\n\n    </p>\n\n    <p style="color:#000000;">\n\n      Lương khởi điểm 10.000.000đ, có thê thỏa thuận\n\n    </p>\n\n  </div>\n\n  <div class="spacer" style="width:300px;height:5px;" id="FindBandPost-spacer22"></div>\n\n  <button id="FindBandPost-button8" ion-button color="royal" block>\n\n    Ứng tuyển\n\n  </button>\n\n  <button id="FindBandPost-button9" ion-button color="royal" block>\n\n    Liên hệ\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\find-band-post\find-band-post.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], FindBandPostPage);
@@ -134,64 +58,7 @@ var FindBandPostPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditProfilePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bands_co_bands_co__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_menu__ = __webpack_require__(20);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var EditProfilePage = /** @class */ (function () {
-    function EditProfilePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    EditProfilePage.prototype.goToProfile = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__profile_profile__["a" /* ProfilePage */]);
-    };
-    //for footer 
-    EditProfilePage.prototype.goToHome = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__bands_co_bands_co__["a" /* BandsCOPage */]);
-    };
-    EditProfilePage.prototype.goToMenu = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__menu_menu__["a" /* MenuPage */]);
-    };
-    EditProfilePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-edit-profile',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\edit-profile\edit-profile.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button on-click="goToProfile()">\n        Lưu\n      </button>\n    </ion-buttons>\n    <ion-title>\n      EditProfile\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page8">\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div id="editProfile-markdown20" class="show-list-numbers-and-dots">\n    <h4>\n      Cơ bản\n    </h4>\n  </div>\n  <form id="editProfile-form8">\n    <ion-item id="editProfile-input18">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Họ và tên"></ion-input>\n    </ion-item>\n    <ion-item id="editProfile-input17">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Email"></ion-input>\n    </ion-item>\n    <ion-item id="editProfile-input19">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Số điện thoại"></ion-input>\n    </ion-item>\n    <ion-item id="editProfile-input26">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thời gian rảnh"></ion-input>\n    </ion-item>\n  </form>\n  <div id="editProfile-markdown21" class="show-list-numbers-and-dots">\n    <h4>\n      Kỹ năng\n    </h4>\n  </div>\n  <ion-list id="editProfile-list13">\n    <ion-item id="editProfile-select2">\n      <ion-label>\n        Nhạc cụ\n      </ion-label>\n      <ion-select name=""></ion-select>\n    </ion-item>\n    <ion-item id="editProfile-checkbox1">\n      <ion-label>\n        Guitar\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="editProfile-checkbox2">\n      <ion-label>\n        Cajon - Hithat\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="editProfile-checkbox3">\n      <ion-label>\n        Piano\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="editProfile-checkbox4">\n      <ion-label>\n        Beatbox\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="editProfile-checkbox5">\n      <ion-label>\n        Vocal\n      </ion-label>\n      <ion-checkbox></ion-checkbox>\n    </ion-item>\n    <ion-item id="editProfile-input16">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Nhạc cụ khác"></ion-input>\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="height:10px;" id="editProfile-spacer18"></div>\n  <form id="editProfile-form9">\n    <ion-item id="editProfile-input23">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n    </ion-item>\n  </form>\n  <button id="editProfile-button5" ion-button color="royal" block on-click="goToProfile()">\n    Lưu\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\edit-profile\edit-profile.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
-    ], EditProfilePage);
-    return EditProfilePage;
-}());
-
-//# sourceMappingURL=edit-profile.js.map
-
-/***/ }),
-
-/***/ 117:
+/***/ 116:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -204,11 +71,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 117;
+webpackEmptyAsyncContext.id = 116;
 
 /***/ }),
 
-/***/ 158:
+/***/ 157:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -221,7 +88,7 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 158;
+webpackEmptyAsyncContext.id = 157;
 
 /***/ }),
 
@@ -232,14 +99,14 @@ webpackEmptyAsyncContext.id = 158;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandsCOPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__find_member_post_find_member_post__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_find_member__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__find_band_post_find_band_post__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__edit_profile_edit_profile__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__join_band_join_band__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__find_member_post_find_member_post__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_find_member__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__find_band_post_find_band_post__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__edit_profile_edit_profile__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__join_band_join_band__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__find_band_find_band__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__find_band_find_band__ = __webpack_require__(56);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -313,7 +180,7 @@ var BandsCOPage = /** @class */ (function () {
     };
     BandsCOPage = BandsCOPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-bands-co',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\bands-co\bands-co.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button icon-only on-click="goToJoinBand()">\n        <ion-icon name="add-circle"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      BandsCO\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="goToProfile()">\n        <ion-icon name="contact"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page4">\n  <ion-card id="bandsCO-card21">\n    <ion-list>\n      <ion-item color="royal" id="bandsCO-list-item9">\n        <ion-avatar item-left>\n          <img src="assets/img/HNSOusbR9GvcTPzFATNQ_avatar.jpg" />\n        </ion-avatar>\n        <h2>\n          Vũ Phạm\n        </h2>\n      </ion-item>\n      <img src="assets/img/yTpOLdi8ReWvJfDrgxxR_avatar.jpg" />\n      <ion-item color="royal" id="bandsCO-list-item10">\n        <ion-icon name="musical-notes" item-left></ion-icon>\n        Trống, Rap, Sáng tác\n      </ion-item>\n      <button id="bandsCO-button" ion-button color="royal" block on-click="goToProfile()">\n        Xem hồ sơ\n      </button>\n    </ion-list>\n  </ion-card>\n  <ion-card id="bandsCO-card24">\n    <ion-list>\n      <ion-item color="royal" id="bandsCO-list-item15">\n        <ion-avatar item-left>\n          <img src="assets/img/0GKR8nTBTCG1e3xWTWNM_bands.jpg" />\n        </ion-avatar>\n        <h2>\n          Foreigner band\n        </h2>\n      </ion-item>\n      <img src="assets/img/a6fX9VIaRlq1Hco5ys8K_bands.jpg" />\n      <ion-item color="royal" id="bandsCO-list-item16">\n        <ion-icon name="person-add" item-left></ion-icon>\n        vị trí 1, vị trí 2\n      </ion-item>\n      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindMemberPost()">\n        Xem chi tiết\n      </button>\n    </ion-list>\n  </ion-card>\n  <ion-card id="bandsCO-card25">\n    <ion-list>\n      <ion-item color="royal" id="bandsCO-list-item17">\n        <ion-avatar item-left>\n          <img src="assets/img/5rchU2TZikIPBdviTzeA_business.jpg" />\n        </ion-avatar>\n        <h2>\n          Phòng trà Đồng Dao\n        </h2>\n      </ion-item>\n      <img src="assets/img/nUipxvZ5QdiqVUEKUYMA_business.jpg" />\n      <ion-item color="royal" id="bandsCO-list-item18">\n        <ion-icon name="cash" item-left></ion-icon>\n        1.000.000 VNĐ\n      </ion-item>\n      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindBandPost()">\n        Xem chi tiết\n      </button>\n    </ion-list>\n  </ion-card>\n</ion-content>\n<!--footer-->\n<ion-footer>\n  <ion-navbar>\n    <ion-row>\n      <ion-buttons col text-center>\n        <button mx-auto ion-button icon-only on-click="goToHome()">\n          <ion-icon name="home"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-buttons col text-center>\n        <button mx-auto ion-button icon-only (click)="goToMenu()">\n          <ion-icon name="menu"></ion-icon>\n        </button>\n      </ion-buttons>\n    </ion-row>\n  </ion-navbar>\n</ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\bands-co\bands-co.html"*/
+            selector: 'page-bands-co',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\bands-co\bands-co.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons start>\n\n      <button ion-button icon-only on-click="goToJoinBand()">\n\n        <ion-icon name="add-circle"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n    <ion-title>\n\n      BandsCO\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button icon-only (click)="goToProfile()">\n\n        <ion-icon name="contact"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page4">\n\n  <ion-card id="bandsCO-card21">\n\n    <ion-list>\n\n      <ion-item color="royal" id="bandsCO-list-item9">\n\n        <ion-avatar item-left>\n\n          <img src="assets/img/HNSOusbR9GvcTPzFATNQ_avatar.jpg" />\n\n        </ion-avatar>\n\n        <h2>\n\n          Vũ Phạm\n\n        </h2>\n\n      </ion-item>\n\n      <img src="assets/img/yTpOLdi8ReWvJfDrgxxR_avatar.jpg" />\n\n      <ion-item color="royal" id="bandsCO-list-item10">\n\n        <ion-icon name="musical-notes" item-left></ion-icon>\n\n        Trống, Rap, Sáng tác\n\n      </ion-item>\n\n      <button id="bandsCO-button" ion-button color="royal" block on-click="goToProfile()">\n\n        Xem hồ sơ\n\n      </button>\n\n    </ion-list>\n\n  </ion-card>\n\n  <ion-card id="bandsCO-card24">\n\n    <ion-list>\n\n      <ion-item color="royal" id="bandsCO-list-item15">\n\n        <ion-avatar item-left>\n\n          <img src="assets/img/0GKR8nTBTCG1e3xWTWNM_bands.jpg" />\n\n        </ion-avatar>\n\n        <h2>\n\n          Foreigner band\n\n        </h2>\n\n      </ion-item>\n\n      <img src="assets/img/a6fX9VIaRlq1Hco5ys8K_bands.jpg" />\n\n      <ion-item color="royal" id="bandsCO-list-item16">\n\n        <ion-icon name="person-add" item-left></ion-icon>\n\n        vị trí 1, vị trí 2\n\n      </ion-item>\n\n      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindMemberPost()">\n\n        Xem chi tiết\n\n      </button>\n\n    </ion-list>\n\n  </ion-card>\n\n  <ion-card id="bandsCO-card25">\n\n    <ion-list>\n\n      <ion-item color="royal" id="bandsCO-list-item17">\n\n        <ion-avatar item-left>\n\n          <img src="assets/img/5rchU2TZikIPBdviTzeA_business.jpg" />\n\n        </ion-avatar>\n\n        <h2>\n\n          Phòng trà Đồng Dao\n\n        </h2>\n\n      </ion-item>\n\n      <img src="assets/img/nUipxvZ5QdiqVUEKUYMA_business.jpg" />\n\n      <ion-item color="royal" id="bandsCO-list-item18">\n\n        <ion-icon name="cash" item-left></ion-icon>\n\n        1.000.000 VNĐ\n\n      </ion-item>\n\n      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindBandPost()">\n\n        Xem chi tiết\n\n      </button>\n\n    </ion-list>\n\n  </ion-card>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n  <ion-navbar>\n\n    <ion-row>\n\n      <ion-buttons col text-center>\n\n        <button mx-auto ion-button icon-only on-click="goToHome()">\n\n          <ion-icon name="home"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-buttons col text-center>\n\n        <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-row>\n\n  </ion-navbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\bands-co\bands-co.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], BandsCOPage);
@@ -325,76 +192,15 @@ var BandsCOPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 20:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_find_member__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__find_band_find_band__ = __webpack_require__(55);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var MenuPage = /** @class */ (function () {
-    function MenuPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    MenuPage.prototype.goToBandsCO = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__["a" /* BandsCOPage */]);
-    };
-    MenuPage.prototype.goToProfile = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
-    };
-    MenuPage.prototype.goToFindBand = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__find_band_find_band__["a" /* FindBandPage */]);
-    };
-    MenuPage.prototype.goToFindMember = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__find_member_find_member__["a" /* FindMemberPage */]);
-    };
-    MenuPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\menu\menu.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Menu\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <button ion-button color="stable" block on-click="goToProfile()">Xem hồ sơ</button>\n  <button ion-button color="stable" block on-click="goToFindMember()">Đăng tuyển thành viên</button>\n  <button ion-button color="stable" block on-click="goToFindBand()">Đăng tuyển band</button>\n</ion-content>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\menu\menu.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
-    ], MenuPage);
-    return MenuPage;
-}());
-
-//# sourceMappingURL=menu.js.map
-
-/***/ }),
-
-/***/ 202:
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JoinBandPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__join_band_post_join_band_post__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__join_band_post_join_band_post__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__menu_menu__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -437,7 +243,7 @@ var JoinBandPage = /** @class */ (function () {
     };
     JoinBandPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-join-band',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\join-band\join-band.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      JoinBand\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page13">\n  <ion-list id="joinBand-list10">\n    <ion-item color="royal" on-click="goToProfile()" id="joinBand-list-item11">\n      <ion-thumbnail item-left>\n        <img src="assets/img/OVlezG5oS6WN0ld83Bz6_avatar.jpg" />\n      </ion-thumbnail>\n      <h2>\n        Vũ Phạm\n      </h2>\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="width:300px;height:15px;" id="joinBand-spacer29"></div>\n  <form id="joinBand-form20">\n    <div id="joinBand-container6">\n      <h4 id="joinBand-heading12" style="color:#974FA5;font-weight:400;">\n        Kinh nghiệm\n      </h4>\n      <ion-list id="joinBand-list21">\n        <ion-item color="none" id="joinBand-list-item31">\n          Các band đã từng chơi\n        </ion-item>\n      </ion-list>\n    </div>\n    <ion-item id="joinBand-input40">\n      <ion-label>\n        Nguyện vọng\n      </ion-label>\n      <ion-input type="text" placeholder="Mong muốn của bản thân"></ion-input>\n    </ion-item>\n    <ion-item id="joinBand-input41">\n      <ion-label>\n        Thời gian thuận tiện\n      </ion-label>\n      <ion-input type="text" placeholder="Ngày trong tuần"></ion-input>\n    </ion-item>\n  </form>\n  <button id="joinBand-button20" ion-button color="royal" block (click)="goToJoinBandPost()">\n    Đăng bài\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\join-band\join-band.html"*/
+            selector: 'page-join-band',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\join-band\join-band.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      JoinBand\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page13">\n\n  <ion-list id="joinBand-list10">\n\n    <ion-item color="royal" on-click="goToProfile()" id="joinBand-list-item11">\n\n      <ion-thumbnail item-left>\n\n        <img src="assets/img/OVlezG5oS6WN0ld83Bz6_avatar.jpg" />\n\n      </ion-thumbnail>\n\n      <h2>\n\n        Vũ Phạm\n\n      </h2>\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="width:300px;height:15px;" id="joinBand-spacer29"></div>\n\n  <form id="joinBand-form20">\n\n    <div id="joinBand-container6">\n\n      <h4 id="joinBand-heading12" style="color:#974FA5;font-weight:400;">\n\n        Kinh nghiệm\n\n      </h4>\n\n      <ion-list id="joinBand-list21">\n\n        <ion-item color="none" id="joinBand-list-item31">\n\n          Các band đã từng chơi\n\n        </ion-item>\n\n      </ion-list>\n\n    </div>\n\n    <ion-item id="joinBand-input40">\n\n      <ion-label>\n\n        Nguyện vọng\n\n      </ion-label>\n\n      <ion-input type="text" placeholder="Mong muốn của bản thân"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="joinBand-input41">\n\n      <ion-label>\n\n        Thời gian thuận tiện\n\n      </ion-label>\n\n      <ion-input type="text" placeholder="Ngày trong tuần"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <button id="joinBand-button20" ion-button color="royal" block (click)="goToJoinBandPost()">\n\n    Đăng bài\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\join-band\join-band.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], JoinBandPage);
@@ -448,14 +254,14 @@ var JoinBandPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 203:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JoinBandPostPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_menu__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -494,7 +300,7 @@ var JoinBandPostPage = /** @class */ (function () {
     };
     JoinBandPostPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-join-band-post',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\join-band-post\join-band-post.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      JoinBandPost\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page14">\n  <ion-list id="joinBandPost-list9">\n    <ion-item color="royal" on-click="goToProfile()" id="joinBandPost-list-item14">\n      <ion-thumbnail item-left>\n        <img src="assets/img/OVlezG5oS6WN0ld83Bz6_avatar.jpg" />\n      </ion-thumbnail>\n      <h2>\n        Vũ Phạm\n      </h2>\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="width:300px;height:15px;" id="joinBandPost-spacer34"></div>\n  <form id="joinBandPost-form14">\n    <div id="joinBandPost-container7">\n      <h4 id="joinBandPost-heading14" style="color:#974FA5;font-weight:400;">\n        Kỹ năng\n      </h4>\n      <ion-list id="joinBandPost-list23">\n        <ion-item color="royal" id="joinBandPost-list-item20">\n          <ion-icon name="musical-notes" item-left></ion-icon>\n          Trống, Guitar\n        </ion-item>\n      </ion-list>\n      <ion-list id="joinBandPost-list25">\n        <ion-item color="royal" id="joinBandPost-list-item21">\n          <ion-icon name="star" item-left></ion-icon>\n          Licks, Bass, Hammer\n        </ion-item>\n      </ion-list>\n      <ion-list id="joinBandPost-list27">\n        <ion-item color="royal" id="joinBandPost-list-item22">\n          <ion-icon name="bookmark" item-left></ion-icon>\n          Giải nhất The Voice\n        </ion-item>\n      </ion-list>\n      <h4 id="joinBandPost-heading13" style="color:#974FA5;font-weight:400;">\n        Kinh nghiệm\n      </h4>\n      <ion-list id="joinBandPost-list19">\n        <ion-item color="none" id="joinBandPost-list-item24">\n          <ion-icon name="people" item-left></ion-icon>\n          7269 Bands, Cá hồi hoang\n        </ion-item>\n        <ion-item color="none" id="joinBandPost-list-item25">\n          <ion-icon name="paper-plane" item-left></ion-icon>\n          Mong muốn học hỏi và tiến bộ\n        </ion-item>\n        <ion-item color="none" id="joinBandPost-list-item26">\n          <ion-icon name="timer" item-left></ion-icon>\n          Thứ 7, chủ nhật\n        </ion-item>\n      </ion-list>\n    </div>\n  </form>\n  <button id="joinBandPost-button15" ion-button color="royal" block on-click="goToProfile()">\n    Xem hồ sơ\n  </button>\n  <button id="joinBandPost-button19" ion-button color="royal" block>\n    Liên hệ\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\join-band-post\join-band-post.html"*/
+            selector: 'page-join-band-post',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\join-band-post\join-band-post.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      JoinBandPost\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page14">\n\n  <ion-list id="joinBandPost-list9">\n\n    <ion-item color="royal" on-click="goToProfile()" id="joinBandPost-list-item14">\n\n      <ion-thumbnail item-left>\n\n        <img src="assets/img/OVlezG5oS6WN0ld83Bz6_avatar.jpg" />\n\n      </ion-thumbnail>\n\n      <h2>\n\n        Vũ Phạm\n\n      </h2>\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="width:300px;height:15px;" id="joinBandPost-spacer34"></div>\n\n  <form id="joinBandPost-form14">\n\n    <div id="joinBandPost-container7">\n\n      <h4 id="joinBandPost-heading14" style="color:#974FA5;font-weight:400;">\n\n        Kỹ năng\n\n      </h4>\n\n      <ion-list id="joinBandPost-list23">\n\n        <ion-item color="royal" id="joinBandPost-list-item20">\n\n          <ion-icon name="musical-notes" item-left></ion-icon>\n\n          Trống, Guitar\n\n        </ion-item>\n\n      </ion-list>\n\n      <ion-list id="joinBandPost-list25">\n\n        <ion-item color="royal" id="joinBandPost-list-item21">\n\n          <ion-icon name="star" item-left></ion-icon>\n\n          Licks, Bass, Hammer\n\n        </ion-item>\n\n      </ion-list>\n\n      <ion-list id="joinBandPost-list27">\n\n        <ion-item color="royal" id="joinBandPost-list-item22">\n\n          <ion-icon name="bookmark" item-left></ion-icon>\n\n          Giải nhất The Voice\n\n        </ion-item>\n\n      </ion-list>\n\n      <h4 id="joinBandPost-heading13" style="color:#974FA5;font-weight:400;">\n\n        Kinh nghiệm\n\n      </h4>\n\n      <ion-list id="joinBandPost-list19">\n\n        <ion-item color="none" id="joinBandPost-list-item24">\n\n          <ion-icon name="people" item-left></ion-icon>\n\n          7269 Bands, Cá hồi hoang\n\n        </ion-item>\n\n        <ion-item color="none" id="joinBandPost-list-item25">\n\n          <ion-icon name="paper-plane" item-left></ion-icon>\n\n          Mong muốn học hỏi và tiến bộ\n\n        </ion-item>\n\n        <ion-item color="none" id="joinBandPost-list-item26">\n\n          <ion-icon name="timer" item-left></ion-icon>\n\n          Thứ 7, chủ nhật\n\n        </ion-item>\n\n      </ion-list>\n\n    </div>\n\n  </form>\n\n  <button id="joinBandPost-button15" ion-button color="royal" block on-click="goToProfile()">\n\n    Xem hồ sơ\n\n  </button>\n\n  <button id="joinBandPost-button19" ion-button color="royal" block>\n\n    Liên hệ\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\join-band-post\join-band-post.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], JoinBandPostPage);
@@ -505,6 +311,142 @@ var JoinBandPostPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 20:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_find_member__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__find_band_find_band__ = __webpack_require__(56);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var MenuPage = /** @class */ (function () {
+    function MenuPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    MenuPage.prototype.goToBandsCO = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__["a" /* BandsCOPage */]);
+    };
+    MenuPage.prototype.goToProfile = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
+    };
+    MenuPage.prototype.goToFindBand = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__find_band_find_band__["a" /* FindBandPage */]);
+    };
+    MenuPage.prototype.goToFindMember = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__find_member_find_member__["a" /* FindMemberPage */]);
+    };
+    MenuPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-menu',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\menu\menu.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Menu\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <button ion-button color="stable" block on-click="goToProfile()">Xem hồ sơ</button>\n\n  <button ion-button color="stable" block on-click="goToFindMember()">Đăng tuyển thành viên</button>\n\n  <button ion-button color="stable" block on-click="goToFindBand()">Đăng tuyển band</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\menu\menu.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+    ], MenuPage);
+    return MenuPage;
+}());
+
+//# sourceMappingURL=menu.js.map
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_post_find_member_post__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__signup_signup__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var LoginPage = /** @class */ (function () {
+    function LoginPage(navCtrl, fromBuilder) {
+        this.navCtrl = navCtrl;
+        this.fromBuilder = fromBuilder;
+        this.loginForm = fromBuilder.group({
+            userName: ['', __WEBPACK_IMPORTED_MODULE_6__angular_forms__["f" /* Validators */].required],
+            password: ['', __WEBPACK_IMPORTED_MODULE_6__angular_forms__["f" /* Validators */].required]
+        });
+    }
+    LoginPage.prototype.goToBandsCO = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__["a" /* BandsCOPage */]);
+    };
+    LoginPage.prototype.goToProfile = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
+    };
+    LoginPage.prototype.goToFindMemberPost = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__find_member_post_find_member_post__["a" /* FindMemberPostPage */]);
+    };
+    LoginPage.prototype.goToSignup = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__signup_signup__["a" /* SignupPage */]);
+    };
+    LoginPage.prototype.checkLogin = function () {
+        console.log(this.loginForm.value);
+        var userName = this.loginForm.value.userName;
+        var password = this.loginForm.value.password;
+        console.log('user name: ' + userName);
+        console.log('password: ' + password);
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\login\login.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Login\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page1">\n\n  <div text-center>\n\n    <img src="assets/img/nHBkB8CHSCqJLzPGIgz3_logo1.png"\n\n      style="display:block;width:100%;height:;margin-left:auto;margin-right:auto;" />\n\n  </div>\n\n  <div id="login-container1">\n\n    <form id="login-form3" [formGroup]="loginForm" (submit)="checkLogin()">\n\n      <div class="spacer" style="width:300px;height:20px;" id="login-spacer31"></div>\n\n      <ion-item id="login-input4">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Tên đăng nhập" formControlName="userName"></ion-input>\n\n      </ion-item>\n\n      <ion-item id="login-input5">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Mật khẩu" formControlName="password"></ion-input>\n\n      </ion-item>\n\n    </form>\n\n  </div>\n\n  <button id="login-button1" ion-button color="royal" block style="color:#FFFFFF;border-radius:5px 5px 5px 5px;"\n\n    type="submit">\n\n    Đăng nhập\n\n  </button>\n\n  <div class="spacer" style="height:10px;" id="login-spacer3"></div>\n\n  <div id="login-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#010002;font-size:14px;">\n\n      <strong>\n\n        Quên mật khẩu?\n\n      </strong>\n\n    </p>\n\n  </div>\n\n  <div id="login-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      -------- HOẶC --------\n\n    </p>\n\n  </div>\n\n  <div id="login-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      Bạn chưa có tài khoản?\n\n      <strong (click)="goToSignup()">\n\n        Hãy Đăng ký\n\n      </strong>\n\n    </p>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\login\login.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__angular_forms__["a" /* FormBuilder */]])
+    ], LoginPage);
+    return LoginPage;
+}());
+
+//# sourceMappingURL=login.js.map
+
+/***/ }),
+
 /***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -512,7 +454,7 @@ var JoinBandPostPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(203);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -536,7 +478,7 @@ var SignupPage = /** @class */ (function () {
     };
     SignupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-signup',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\signup\signup.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Signup\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page3">\n  <img src="assets/img/5otX3UIPRZuCqlTJ3mcb_logo1.png" style="display:block;width:50%;height:;margin-left:auto;margin-right:auto;" />\n  <div id="signup-container3">\n    <form id="signup-form5">\n      <div class="spacer" style="width:300px;height:19px;" id="signup-spacer33"></div>\n      <ion-item id="signup-input8">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Tên đăng nhập"></ion-input>\n      </ion-item>\n      <ion-item id="signup-input11">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Email"></ion-input>\n      </ion-item>\n      <ion-item id="signup-input9">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Mật khẩu"></ion-input>\n      </ion-item>\n      <ion-item id="signup-input10">\n        <ion-label></ion-label>\n        <ion-input type="text" placeholder="Nhập lại mật khẩu"></ion-input>\n      </ion-item>\n    </form>\n  </div>\n  <button id="signup-button3" ion-button color="royal" block style="border-radius:5px 5px 5px 5px;">\n    Đăng ký\n  </button>\n  <div id="signup-markdown14" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      -------- HOẶC --------\n    </p>\n  </div>\n  <div id="signup-markdown8" style="text-align:center;" class="show-list-numbers-and-dots">\n    <p style="color:#000000;font-size:14px;">\n      Bạn đã là thành viên?\n      <strong (click)="goToLogin()">\n        Đăng nhập ngay\n      </strong>\n    </p>\n  </div>\n</ion-content>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\signup\signup.html"*/
+            selector: 'page-signup',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\signup\signup.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Signup\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page3">\n\n  <img src="assets/img/5otX3UIPRZuCqlTJ3mcb_logo1.png" style="display:block;width:50%;height:;margin-left:auto;margin-right:auto;" />\n\n  <div id="signup-container3">\n\n    <form id="signup-form5">\n\n      <div class="spacer" style="width:300px;height:19px;" id="signup-spacer33"></div>\n\n      <ion-item id="signup-input8">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Tên đăng nhập"></ion-input>\n\n      </ion-item>\n\n      <ion-item id="signup-input11">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Email"></ion-input>\n\n      </ion-item>\n\n      <ion-item id="signup-input9">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Mật khẩu"></ion-input>\n\n      </ion-item>\n\n      <ion-item id="signup-input10">\n\n        <ion-label></ion-label>\n\n        <ion-input type="text" placeholder="Nhập lại mật khẩu"></ion-input>\n\n      </ion-item>\n\n    </form>\n\n  </div>\n\n  <button id="signup-button3" ion-button color="royal" block style="border-radius:5px 5px 5px 5px;">\n\n    Đăng ký\n\n  </button>\n\n  <div id="signup-markdown14" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      -------- HOẶC --------\n\n    </p>\n\n  </div>\n\n  <div id="signup-markdown8" style="text-align:center;" class="show-list-numbers-and-dots">\n\n    <p style="color:#000000;font-size:14px;">\n\n      Bạn đã là thành viên?\n\n      <strong (click)="goToLogin()">\n\n        Đăng nhập ngay\n\n      </strong>\n\n    </p>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\signup\signup.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], SignupPage);
@@ -567,23 +509,23 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_signup_signup__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bands_co_bands_co__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_edit_profile_edit_profile__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_find_band_find_band__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_find_band_post_find_band_post__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_find_member_find_member__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_find_member_post_find_member_post__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_join_band_join_band__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_join_band_post_join_band_post__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_profile_profile__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_edit_profile_edit_profile__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_find_band_find_band__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_find_band_post_find_band_post__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_find_member_find_member__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_find_member_post_find_member_post__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_join_band_join_band__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_join_band_post_join_band_post__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(202);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -669,11 +611,11 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_edit_profile_edit_profile__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(202);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -690,7 +632,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen) {
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_login_login__["a" /* LoginPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_0__pages_edit_profile_edit_profile__["a" /* EditProfilePage */];
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
@@ -699,9 +641,9 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\app\app.html"*/'<ion-nav #mainContent [root]="rootPage"></ion-nav>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\app\app.html"*/'<ion-nav #mainContent [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
@@ -710,7 +652,48 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 30:
+/***/ 272:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserInfo; });
+var UserInfo = /** @class */ (function () {
+    function UserInfo(id, accId, username, img, phone, email, skill, musical, achievements) {
+        this.id = id;
+        this.accountid = accId;
+        this.username = username;
+        this.img = img;
+        this.phone = phone;
+        this.email = email;
+        this.skill = skill;
+        this.musical = musical;
+        this.achievements = achievements;
+    }
+    return UserInfo;
+}());
+
+//# sourceMappingURL=userInfo.js.map
+
+/***/ }),
+
+/***/ 280:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Musical; });
+var Musical = /** @class */ (function () {
+    function Musical(name, isChecked) {
+        this.name = name;
+        this.isChecked = isChecked;
+    }
+    return Musical;
+}());
+
+//# sourceMappingURL=musical.js.map
+
+/***/ }),
+
+/***/ 35:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -719,7 +702,7 @@ var MyApp = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_profile_edit_profile__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_profile_edit_profile__ = __webpack_require__(53);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -757,7 +740,7 @@ var ProfilePage = /** @class */ (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\profile\profile.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button></button>\n    </ion-buttons>\n    <ion-title>\n      Profile\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="goToEditProfile()">\n        <ion-icon name="create"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page5">\n  <div class="spacer" style="height:20px;" id="profile-spacer12"></div>\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="height:10px;" id="profile-spacer10"></div>\n  <h3 id="profile-heading11" style="color:#8A2CE2;text-align:center;">\n    Vũ Phạm\n  </h3>\n  <div id="profile-markdown15" class="show-list-numbers-and-dots">\n    <h4>\n      Cơ bản\n    </h4>\n  </div>\n  <ion-list id="profile-list8">\n    <ion-item color="royal" id="profile-list-item36">\n      <ion-icon name="person" item-left></ion-icon>\n      Phạm Trung Anh Vũ\n    </ion-item>\n    <ion-item color="royal" id="profile-list-item29">\n      <ion-icon name="phone-portrait" item-left></ion-icon>\n      0234567890\n    </ion-item>\n    <ion-item color="royal" id="profile-list-item46">\n      <ion-icon name="mail" item-left></ion-icon>\n      anhvupt@gmail.com\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="height:10px;" id="profile-spacer15"></div>\n  <div id="profile-markdown18" class="show-list-numbers-and-dots">\n    <h4>\n      Kỹ năng\n    </h4>\n  </div>\n  <ion-list id="profile-list11">\n    <ion-item color="royal" id="profile-list-item12">\n      <ion-icon name="musical-notes" item-left></ion-icon>\n      Trống, Guitar\n    </ion-item>\n    <ion-item color="royal" id="profile-list-item13">\n      <ion-icon name="star" item-left></ion-icon>\n      Licks, Bass, Hammer\n    </ion-item>\n  </ion-list>\n  <ion-list id="profile-list16">\n    <ion-item color="royal" id="profile-list-item43">\n      <ion-icon name="bookmark" item-left></ion-icon>\n      Giải nhất The Voice\n    </ion-item>\n  </ion-list>\n  <div id="profile-markdown17" class="show-list-numbers-and-dots">\n    <h4>\n      Tài khoản\n    </h4>\n  </div>\n  <button id="profile-button14" ion-button color="royal" block>\n    Đăng xuất\n  </button>\n  <div class="spacer" style="height:10px;" id="profile-spacer11"></div>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\profile\profile.html"*/
+            selector: 'page-profile',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\profile\profile.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons start>\n\n      <button ion-button></button>\n\n    </ion-buttons>\n\n    <ion-title>\n\n      Profile\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button icon-only (click)="goToEditProfile()">\n\n        <ion-icon name="create"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page5">\n\n  <div class="spacer" style="height:20px;" id="profile-spacer12"></div>\n\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <div class="spacer" style="height:10px;" id="profile-spacer10"></div>\n\n  <h3 id="profile-heading11" style="color:#8A2CE2;text-align:center;">\n\n    Vũ Phạm\n\n  </h3>\n\n  <div id="profile-markdown15" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Cơ bản\n\n    </h4>\n\n  </div>\n\n  <ion-list id="profile-list8">\n\n    <ion-item color="royal" id="profile-list-item36">\n\n      <ion-icon name="person" item-left></ion-icon>\n\n      Phạm Trung Anh Vũ\n\n    </ion-item>\n\n    <ion-item color="royal" id="profile-list-item29">\n\n      <ion-icon name="phone-portrait" item-left></ion-icon>\n\n      0234567890\n\n    </ion-item>\n\n    <ion-item color="royal" id="profile-list-item46">\n\n      <ion-icon name="mail" item-left></ion-icon>\n\n      anhvupt@gmail.com\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="height:10px;" id="profile-spacer15"></div>\n\n  <div id="profile-markdown18" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Kỹ năng\n\n    </h4>\n\n  </div>\n\n  <ion-list id="profile-list11">\n\n    <ion-item color="royal" id="profile-list-item12">\n\n      <ion-icon name="musical-notes" item-left></ion-icon>\n\n      Trống, Guitar\n\n    </ion-item>\n\n    <ion-item color="royal" id="profile-list-item13">\n\n      <ion-icon name="star" item-left></ion-icon>\n\n      Licks, Bass, Hammer\n\n    </ion-item>\n\n  </ion-list>\n\n  <ion-list id="profile-list16">\n\n    <ion-item color="royal" id="profile-list-item43">\n\n      <ion-icon name="bookmark" item-left></ion-icon>\n\n      Giải nhất The Voice\n\n    </ion-item>\n\n  </ion-list>\n\n  <div id="profile-markdown17" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Tài khoản\n\n    </h4>\n\n  </div>\n\n  <button id="profile-button14" ion-button color="royal" block>\n\n    Đăng xuất\n\n  </button>\n\n  <div class="spacer" style="height:10px;" id="profile-spacer11"></div>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\profile\profile.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], ProfilePage);
@@ -772,12 +755,109 @@ var ProfilePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditProfilePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__models_userInfo__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__models_musical__ = __webpack_require__(280);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var EditProfilePage = /** @class */ (function () {
+    function EditProfilePage(navCtrl, formBuilder) {
+        this.navCtrl = navCtrl;
+        this.formBuilder = formBuilder;
+        this.OrderMusical = "";
+        this.Achievements = "";
+        this.items = [
+            new __WEBPACK_IMPORTED_MODULE_6__models_musical__["a" /* Musical */]('Cajon', false),
+            new __WEBPACK_IMPORTED_MODULE_6__models_musical__["a" /* Musical */]('Beatbox', false),
+            new __WEBPACK_IMPORTED_MODULE_6__models_musical__["a" /* Musical */]('Piano', false),
+            new __WEBPACK_IMPORTED_MODULE_6__models_musical__["a" /* Musical */]('Guitar', false),
+            new __WEBPACK_IMPORTED_MODULE_6__models_musical__["a" /* Musical */]('Vocal', false)
+        ];
+        this.formEdit = formBuilder.group({
+            name: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required],
+            email: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required],
+            phone: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required],
+            freetime: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required]
+        });
+    }
+    EditProfilePage.prototype.goToProfile = function (params) {
+        var Profile = this.formEdit.value;
+        this.UserProfile = new __WEBPACK_IMPORTED_MODULE_5__models_userInfo__["a" /* UserInfo */]("no Id", "no User Id", Profile['name'], "", Profile['phone'], Profile['email'], "skill", this.getMusical().toString(), this.Achievements);
+        console.log(JSON.stringify(this.UserProfile));
+        //save Profile ?
+        if (!params)
+            params = {};
+        // this.navCtrl.push(ProfilePage);
+    };
+    //for footer 
+    EditProfilePage.prototype.goToHome = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__["a" /* BandsCOPage */]);
+    };
+    EditProfilePage.prototype.goToMenu = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__menu_menu__["a" /* MenuPage */]);
+    };
+    EditProfilePage.prototype.check = function (name) {
+        console.log(name);
+    };
+    EditProfilePage.prototype.getMusical = function () {
+        var skill = "";
+        for (var i = 0; i < this.items.length; i++) {
+            if (this.items[i].isChecked == true) {
+                skill = skill.concat(this.items[i].name, ", ");
+            }
+        }
+        if (this.OrderMusical != "") {
+            skill + this.OrderMusical;
+        }
+        return skill;
+    };
+    EditProfilePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-edit-profile',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\edit-profile\edit-profile.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons start>\n\n      <button ion-button on-click="goToProfile()">\n\n        Lưu\n\n      </button>\n\n    </ion-buttons>\n\n    <ion-title>\n\n      EditProfile\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button></button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding id="page8">\n\n  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <div id="editProfile-markdown20" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Cơ bản\n\n    </h4>\n\n  </div>\n\n  <form id="editProfile-form8" [formGroup]="formEdit">\n\n    <ion-item id="editProfile-input18">\n\n      <ion-label></ion-label>\n\n      <ion-input formControlName="name" type="text" placeholder="Họ và tên"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="editProfile-input17">\n\n      <ion-label></ion-label>\n\n      <ion-input formControlName="email" type="text" placeholder="Email"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="editProfile-input19">\n\n      <ion-label></ion-label>\n\n      <ion-input formControlName="phone" type="text" placeholder="Số điện thoại"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="editProfile-input26">\n\n      <ion-label></ion-label>\n\n      <ion-input formControlName="freetime" type="text" placeholder="Thời gian rảnh"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <div id="editProfile-markdown21" class="show-list-numbers-and-dots">\n\n    <h4>\n\n      Kỹ năng\n\n    </h4>\n\n  </div>\n\n  <ion-list id="editProfile-list13">\n\n    <ion-item id="editProfile-select2">\n\n      <ion-label>\n\n        Nhạc cụ\n\n      </ion-label>\n\n      <ion-select name=""></ion-select>\n\n    </ion-item>\n\n    <ion-item id="editProfile-checkbox1" *ngFor ="let item of items">\n\n      <ion-label>\n\n        {{item.name}}\n\n      </ion-label>\n\n      <ion-checkbox  [(ngModel)]="item.isChecked" (ionChange)="check(item.isChecked)"></ion-checkbox>\n\n    </ion-item>\n\n    <ion-item id="editProfile-input16">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" [(ngModel)]="OrderMusical" name="OrderMusical" placeholder="Nhạc cụ khác"></ion-input>\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="height:10px;" id="editProfile-spacer18"></div>\n\n  <form id="editProfile-form9">\n\n    <ion-item id="editProfile-input23">\n\n      <ion-label></ion-label>\n\n      <ion-input [(ngModel)]="Achievements" name="Achievements"  type="text" placeholder="Thành tích"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <button id="editProfile-button5" ion-button color="royal" block on-click="goToProfile()">\n\n    Lưu\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\edit-profile\edit-profile.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */]) === "function" && _b || Object])
+    ], EditProfilePage);
+    return EditProfilePage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=edit-profile.js.map
+
+/***/ }),
+
+/***/ 54:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FindMemberPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_post_find_member_post__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_post_find_member_post__ = __webpack_require__(55);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -815,7 +895,7 @@ var FindMemberPage = /** @class */ (function () {
     };
     FindMemberPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-find-member',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-member\find-member.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      FindMember\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page11">\n  <form id="findMember-form11">\n    <ion-item id="findMember-input20">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Tên nhóm nhạc"></ion-input>\n    </ion-item>\n  </form>\n  <img src="assets/img/pz9hn6fBSCqWYG6sNOdC_maxresdefault.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <h4 id="findMember-heading2" style="color:#000000;">\n    Thông tin nhóm\n  </h4>\n  <ion-list id="findMember-list12" class="Thêm đâu giờ">\n    <ion-item id="findMember-select3">\n      <ion-label>\n        Dòng nhạc\n      </ion-label>\n      <ion-select name="">\n        <ion-option>\n          Rock\n        </ion-option>\n        <ion-option>\n          Acoustic\n        </ion-option>\n        <ion-option>\n          Pop\n        </ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item id="findMember-input21">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n    </ion-item>\n    <ion-item id="findMember-input25">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Điện thoại liên hệ"></ion-input>\n    </ion-item>\n  </ion-list>\n  <h4 id="findMember-heading3" style="color:#000000;">\n    Thành viên\n  </h4>\n  <ion-list id="findMember-list14">\n    <ion-item color="royal" id="findMember-list-item32">\n      <ion-avatar item-left>\n        <img src="assets/img/WU5k9QnATfutHv5g0YCN_71400558_2382733591945478_2803053334208970752_n.jpg" />\n      </ion-avatar>\n      <h2>\n        Phương Thi :))\n      </h2>\n    </ion-item>\n    <ion-item color="royal" id="findMember-list-item34">\n      <ion-avatar item-left>\n        <img src="assets/img/atW3oppTam2bIbsE3lPl_3a616451af70492e1061.jpg" />\n      </ion-avatar>\n      <h2>\n        Quân Trinh\n      </h2>\n    </ion-item>\n  </ion-list>\n  <button id="findMember-button12" ion-button outline color="royal" block style="border-radius:0px 0px 0px 0px;">\n    Thêm thành viên\n  </button>\n  <h4 id="findMember-heading4" style="color:#000000;">\n    Vị trí cần tuyển\n  </h4>\n  <form id="findMember-form13">\n    <ion-item id="findMember-select4">\n      <ion-label>\n        Sở trường\n      </ion-label>\n      <ion-select name="">\n        <ion-option>\n          Hát chính\n        </ion-option>\n        <ion-option>\n          Trống\n        </ion-option>\n        <ion-option>\n          Guitar\n        </ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item id="findMember-input24">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Khả năng khác"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:24px;" id="findMember-spacer23"></div>\n  <button id="findMember-button10" ion-button color="royal" block (click)="goToFindMemberPost()">\n    Đăng bài\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-member\find-member.html"*/
+            selector: 'page-find-member',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\find-member\find-member.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      FindMember\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page11">\n\n  <form id="findMember-form11">\n\n    <ion-item id="findMember-input20">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Tên nhóm nhạc"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <img src="assets/img/pz9hn6fBSCqWYG6sNOdC_maxresdefault.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <h4 id="findMember-heading2" style="color:#000000;">\n\n    Thông tin nhóm\n\n  </h4>\n\n  <ion-list id="findMember-list12" class="Thêm đâu giờ">\n\n    <ion-item id="findMember-select3">\n\n      <ion-label>\n\n        Dòng nhạc\n\n      </ion-label>\n\n      <ion-select name="">\n\n        <ion-option>\n\n          Rock\n\n        </ion-option>\n\n        <ion-option>\n\n          Acoustic\n\n        </ion-option>\n\n        <ion-option>\n\n          Pop\n\n        </ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item id="findMember-input21">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Thành tích"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="findMember-input25">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Điện thoại liên hệ"></ion-input>\n\n    </ion-item>\n\n  </ion-list>\n\n  <h4 id="findMember-heading3" style="color:#000000;">\n\n    Thành viên\n\n  </h4>\n\n  <ion-list id="findMember-list14">\n\n    <ion-item color="royal" id="findMember-list-item32">\n\n      <ion-avatar item-left>\n\n        <img src="assets/img/WU5k9QnATfutHv5g0YCN_71400558_2382733591945478_2803053334208970752_n.jpg" />\n\n      </ion-avatar>\n\n      <h2>\n\n        Phương Thi :))\n\n      </h2>\n\n    </ion-item>\n\n    <ion-item color="royal" id="findMember-list-item34">\n\n      <ion-avatar item-left>\n\n        <img src="assets/img/atW3oppTam2bIbsE3lPl_3a616451af70492e1061.jpg" />\n\n      </ion-avatar>\n\n      <h2>\n\n        Quân Trinh\n\n      </h2>\n\n    </ion-item>\n\n  </ion-list>\n\n  <button id="findMember-button12" ion-button outline color="royal" block style="border-radius:0px 0px 0px 0px;">\n\n    Thêm thành viên\n\n  </button>\n\n  <h4 id="findMember-heading4" style="color:#000000;">\n\n    Vị trí cần tuyển\n\n  </h4>\n\n  <form id="findMember-form13">\n\n    <ion-item id="findMember-select4">\n\n      <ion-label>\n\n        Sở trường\n\n      </ion-label>\n\n      <ion-select name="">\n\n        <ion-option>\n\n          Hát chính\n\n        </ion-option>\n\n        <ion-option>\n\n          Trống\n\n        </ion-option>\n\n        <ion-option>\n\n          Guitar\n\n        </ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item id="findMember-input24">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Khả năng khác"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <div class="spacer" style="width:300px;height:24px;" id="findMember-spacer23"></div>\n\n  <button id="findMember-button10" ion-button color="royal" block (click)="goToFindMemberPost()">\n\n    Đăng bài\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\find-member\find-member.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], FindMemberPage);
@@ -826,7 +906,7 @@ var FindMemberPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 54:
+/***/ 55:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -835,7 +915,7 @@ var FindMemberPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_find_member__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_member_find_member__ = __webpack_require__(54);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -873,7 +953,7 @@ var FindMemberPostPage = /** @class */ (function () {
     };
     FindMemberPostPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-find-member-post',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-member-post\find-member-post.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      FindMemberPost\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="goToFindMember()">\n        <ion-icon name="options"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page12">\n  <h4 id="findMemberPost-heading5" style="color:#B08EE6;text-align:center;">\n    Team 7269\n  </h4>\n  <img src="assets/img/pz9hn6fBSCqWYG6sNOdC_maxresdefault.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <h4 id="findMemberPost-heading7" style="color:#000000;">\n    Thông tin nhóm\n  </h4>\n  <ion-list id="findMemberPost-list15">\n    <ion-item color="royal" id="findMemberPost-list-item35">\n      Dòng nhạc\n      <ion-note item-right></ion-note>\n    </ion-item>\n    <ion-item color="royal" id="findMemberPost-list-item37">\n      Thành tích\n      <ion-note item-right></ion-note>\n    </ion-item>\n    <ion-item color="royal" id="findMemberPost-list-item38">\n      Điện thoại liên hệ\n      <ion-note item-right></ion-note>\n    </ion-item>\n  </ion-list>\n  <h4 id="findMemberPost-heading8" style="color:#000000;">\n    Thành viên\n  </h4>\n  <ion-list id="findMemberPost-list17">\n    <ion-item color="royal" id="findMemberPost-list-item40">\n      <ion-avatar item-left>\n        <img src="assets/img/Ax37UZzVQHy60U3bDeeX_71400558_2382733591945478_2803053334208970752_n.jpg" />\n      </ion-avatar>\n      <h2>\n        Phương Thi\n      </h2>\n    </ion-item>\n    <ion-item color="royal" id="findMemberPost-list-item41">\n      <ion-avatar item-left>\n        <img src="assets/img/AFHQR8d0QnlGXVry5YwC_3a616451af70492e1061.jpg" />\n      </ion-avatar>\n      <h2>\n        Quân Trinh\n      </h2>\n    </ion-item>\n  </ion-list>\n  <h4 id="findMemberPost-heading9" style="color:#000000;">\n    Vị trí ứng tuyển\n  </h4>\n  <ion-list id="findMemberPost-list18">\n    <ion-item color="royal" id="findMemberPost-list-item42">\n      <ion-icon name="musical-notes" item-left></ion-icon>\n      Hát chính\n    </ion-item>\n    <ion-item color="royal" id="findMemberPost-list-item44">\n      <ion-icon name="musical-note" item-left></ion-icon>\n      Trống, Guitar\n    </ion-item>\n  </ion-list>\n  <div class="spacer" style="width:300px;height:40px;" id="findMemberPost-spacer24"></div>\n  <button id="findMemberPost-button13" ion-button color="royal" block>\n    Ứng tuyển\n  </button>\n  <button id="findMemberPost-button11" ion-button color="royal" block>\n    Liên hệ\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-member-post\find-member-post.html"*/
+            selector: 'page-find-member-post',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\find-member-post\find-member-post.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      FindMemberPost\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button icon-only (click)="goToFindMember()">\n\n        <ion-icon name="options"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page12">\n\n  <h4 id="findMemberPost-heading5" style="color:#B08EE6;text-align:center;">\n\n    Team 7269\n\n  </h4>\n\n  <img src="assets/img/pz9hn6fBSCqWYG6sNOdC_maxresdefault.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <h4 id="findMemberPost-heading7" style="color:#000000;">\n\n    Thông tin nhóm\n\n  </h4>\n\n  <ion-list id="findMemberPost-list15">\n\n    <ion-item color="royal" id="findMemberPost-list-item35">\n\n      Dòng nhạc\n\n      <ion-note item-right></ion-note>\n\n    </ion-item>\n\n    <ion-item color="royal" id="findMemberPost-list-item37">\n\n      Thành tích\n\n      <ion-note item-right></ion-note>\n\n    </ion-item>\n\n    <ion-item color="royal" id="findMemberPost-list-item38">\n\n      Điện thoại liên hệ\n\n      <ion-note item-right></ion-note>\n\n    </ion-item>\n\n  </ion-list>\n\n  <h4 id="findMemberPost-heading8" style="color:#000000;">\n\n    Thành viên\n\n  </h4>\n\n  <ion-list id="findMemberPost-list17">\n\n    <ion-item color="royal" id="findMemberPost-list-item40">\n\n      <ion-avatar item-left>\n\n        <img src="assets/img/Ax37UZzVQHy60U3bDeeX_71400558_2382733591945478_2803053334208970752_n.jpg" />\n\n      </ion-avatar>\n\n      <h2>\n\n        Phương Thi\n\n      </h2>\n\n    </ion-item>\n\n    <ion-item color="royal" id="findMemberPost-list-item41">\n\n      <ion-avatar item-left>\n\n        <img src="assets/img/AFHQR8d0QnlGXVry5YwC_3a616451af70492e1061.jpg" />\n\n      </ion-avatar>\n\n      <h2>\n\n        Quân Trinh\n\n      </h2>\n\n    </ion-item>\n\n  </ion-list>\n\n  <h4 id="findMemberPost-heading9" style="color:#000000;">\n\n    Vị trí ứng tuyển\n\n  </h4>\n\n  <ion-list id="findMemberPost-list18">\n\n    <ion-item color="royal" id="findMemberPost-list-item42">\n\n      <ion-icon name="musical-notes" item-left></ion-icon>\n\n      Hát chính\n\n    </ion-item>\n\n    <ion-item color="royal" id="findMemberPost-list-item44">\n\n      <ion-icon name="musical-note" item-left></ion-icon>\n\n      Trống, Guitar\n\n    </ion-item>\n\n  </ion-list>\n\n  <div class="spacer" style="width:300px;height:40px;" id="findMemberPost-spacer24"></div>\n\n  <button id="findMemberPost-button13" ion-button color="royal" block>\n\n    Ứng tuyển\n\n  </button>\n\n  <button id="findMemberPost-button11" ion-button color="royal" block>\n\n    Liên hệ\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\find-member-post\find-member-post.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], FindMemberPostPage);
@@ -884,7 +964,7 @@ var FindMemberPostPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -893,7 +973,7 @@ var FindMemberPostPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bands_co_bands_co__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_band_post_find_band_post__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find_band_post_find_band_post__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -931,7 +1011,7 @@ var FindBandPage = /** @class */ (function () {
     };
     FindBandPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-find-band',template:/*ion-inline-start:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-band\find-band.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      FindBand\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button></button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding id="page9">\n  <img src="assets/img/1937J4eHTpKro6hVbQIe_thiet-ke-quan-cafe-hat-cho-nhau-nghe_101.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n  <form id="FindBand-form12">\n    <ion-item id="FindBand-input22">\n      <ion-label>\n        Tên\n      </ion-label>\n      <ion-input type="text" placeholder=""></ion-input>\n    </ion-item>\n    <ion-item id="FindBand-input27">\n      <ion-label>\n        Địa điểm\n      </ion-label>\n      <ion-input type="text" placeholder=""></ion-input>\n    </ion-item>\n    <ion-item id="FindBand-input28">\n      <ion-label>\n        Số điện thoại\n      </ion-label>\n      <ion-input type="text" placeholder=""></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="height:10px;" id="FindBand-spacer13"></div>\n  <form id="FindBand-form10">\n    <ion-item id="FindBand-input12">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Nhạc cụ"></ion-input>\n    </ion-item>\n    <ion-item id="FindBand-input13">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Thiết bị âm thanh"></ion-input>\n    </ion-item>\n    <ion-item id="FindBand-input14">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Tiền hợp đồng"></ion-input>\n    </ion-item>\n    <ion-item id="FindBand-input15">\n      <ion-label></ion-label>\n      <ion-input type="text" placeholder="Yêu cầu"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="height:10px;" id="FindBand-spacer14"></div>\n  <button id="FindBand-button7" ion-button color="royal" block (click)="goToFindBandPost()">\n    Đăng bài\n  </button>\n</ion-content>\n<!--footer-->\n<ion-footer>\n    <ion-navbar>\n      <ion-row>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n            <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n        <ion-buttons col text-center>\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n            <ion-icon name="menu"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-row>\n    </ion-navbar>\n  </ion-footer>'/*ion-inline-end:"E:\Study\LapTrinhUngDungDiDong\BandsCO\src\pages\find-band\find-band.html"*/
+            selector: 'page-find-band',template:/*ion-inline-start:"C:\Users\Admin\BandsCO\src\pages\find-band\find-band.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      FindBand\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button></button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page9">\n\n  <img src="assets/img/1937J4eHTpKro6hVbQIe_thiet-ke-quan-cafe-hat-cho-nhau-nghe_101.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  <form id="FindBand-form12">\n\n    <ion-item id="FindBand-input22">\n\n      <ion-label>\n\n        Tên\n\n      </ion-label>\n\n      <ion-input type="text" placeholder=""></ion-input>\n\n    </ion-item>\n\n    <ion-item id="FindBand-input27">\n\n      <ion-label>\n\n        Địa điểm\n\n      </ion-label>\n\n      <ion-input type="text" placeholder=""></ion-input>\n\n    </ion-item>\n\n    <ion-item id="FindBand-input28">\n\n      <ion-label>\n\n        Số điện thoại\n\n      </ion-label>\n\n      <ion-input type="text" placeholder=""></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <div class="spacer" style="height:10px;" id="FindBand-spacer13"></div>\n\n  <form id="FindBand-form10">\n\n    <ion-item id="FindBand-input12">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Nhạc cụ"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="FindBand-input13">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Thiết bị âm thanh"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="FindBand-input14">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Tiền hợp đồng"></ion-input>\n\n    </ion-item>\n\n    <ion-item id="FindBand-input15">\n\n      <ion-label></ion-label>\n\n      <ion-input type="text" placeholder="Yêu cầu"></ion-input>\n\n    </ion-item>\n\n  </form>\n\n  <div class="spacer" style="height:10px;" id="FindBand-spacer14"></div>\n\n  <button id="FindBand-button7" ion-button color="royal" block (click)="goToFindBandPost()">\n\n    Đăng bài\n\n  </button>\n\n</ion-content>\n\n<!--footer-->\n\n<ion-footer>\n\n    <ion-navbar>\n\n      <ion-row>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only on-click="goToHome()">\n\n            <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons col text-center>\n\n          <button mx-auto ion-button icon-only (click)="goToMenu()">\n\n            <ion-icon name="menu"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-row>\n\n    </ion-navbar>\n\n  </ion-footer>'/*ion-inline-end:"C:\Users\Admin\BandsCO\src\pages\find-band\find-band.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], FindBandPage);
