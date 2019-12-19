@@ -1,3 +1,4 @@
 node_modules
 BandsCO.zip
-www
+www/build
+.sourcemaps
