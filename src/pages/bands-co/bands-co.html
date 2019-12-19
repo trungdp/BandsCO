@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-buttons start>
-      <button ion-button icon-only>
+      <button ion-button icon-only on-click="goToJoinBand()">
         <ion-icon name="add-circle"></ion-icon>
       </button>
     </ion-buttons>
@@ -9,7 +9,7 @@
       BandsCO
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only>
+      <button ion-button icon-only (click)="goToProfile()">
         <ion-icon name="contact"></ion-icon>
       </button>
     </ion-buttons>
@@ -31,7 +31,7 @@
         <ion-icon name="musical-notes" item-left></ion-icon>
         Trống, Rap, Sáng tác
       </ion-item>
-      <button id="bandsCO-button" ion-button color="royal" block on-click="goToHS()">
+      <button id="bandsCO-button" ion-button color="royal" block on-click="goToProfile()">
         Xem hồ sơ
       </button>
     </ion-list>
@@ -51,7 +51,7 @@
         <ion-icon name="person-add" item-left></ion-icon>
         vị trí 1, vị trí 2
       </ion-item>
-      <button id="bandsCO-button" ion-button color="royal" block on-click="goToBITuyNThNhViN()">
+      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindMemberPost()">
         Xem chi tiết
       </button>
     </ion-list>
@@ -71,9 +71,26 @@
         <ion-icon name="cash" item-left></ion-icon>
         1.000.000 VNĐ
       </ion-item>
-      <button id="bandsCO-button" ion-button color="royal" block on-click="goToNgTuyNBand()">
+      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindBandPost()">
         Xem chi tiết
       </button>
     </ion-list>
   </ion-card>
 </ion-content>
+<!--footer-->
+<ion-footer>
+  <ion-navbar>
+    <ion-row>
+      <ion-buttons col text-center>
+        <button mx-auto ion-button icon-only on-click="goToHome()">
+          <ion-icon name="home"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-buttons col text-center>
+        <button mx-auto ion-button icon-only (click)="goToMenu()">
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-row>
+  </ion-navbar>
+</ion-footer>

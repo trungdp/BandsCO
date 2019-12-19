@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <div text-center>
+    <img src="assets/img/nHBkB8CHSCqJLzPGIgz3_logo1.png"
+      style="display:block;width:100%;height:;margin-left:auto;margin-right:auto;" />
+  </div>
+  <div id="login-container1">
+    <form id="login-form3" [formGroup]="loginForm" (submit)="checkLogin()">
+      <div class="spacer" style="width:300px;height:20px;" id="login-spacer31"></div>
+      <ion-item id="login-input4">
+        <ion-label></ion-label>
+        <ion-input type="text" placeholder="Tên đăng nhập" formControlName="userName"></ion-input>
+      </ion-item>
+      <ion-item id="login-input5">
+        <ion-label></ion-label>
+        <ion-input type="text" placeholder="Mật khẩu" formControlName="password"></ion-input>
+      </ion-item>
+    </form>
+  </div>
+  <button id="login-button1" ion-button color="royal" block style="color:#FFFFFF;border-radius:5px 5px 5px 5px;"
+    type="submit">
+    Đăng nhập
+  </button>
+  <div class="spacer" style="height:10px;" id="login-spacer3"></div>
+  <div id="login-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#010002;font-size:14px;">
+      <strong>
+        Quên mật khẩu?
+      </strong>
+    </p>
+  </div>
+  <div id="login-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;font-size:14px;">
+      -------- HOẶC --------
+    </p>
+  </div>
+  <div id="login-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;font-size:14px;">
+      Bạn chưa có tài khoản?
+      <strong (click)="goToSignup()">
+        Hãy Đăng ký
+      </strong>
+    </p>
+  </div>
+</ion-content>

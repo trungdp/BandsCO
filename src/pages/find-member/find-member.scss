@@ -1,0 +1,29 @@
+page-find-member {
+    .img-band{
+        border-radius: 8px;
+    }
+    .img-member:hover .child,.img-band:focus  {
+      transform: scale(1.2);
+    }
+
+    #findMember-button10{
+        border-radius: 8px;
+        background-color:#9f1f63;
+    }
+    #findMember-button10:hover{
+        background-color:#f7941e;
+    }
+
+    #findMember-button12{
+        border-radius: 8px;
+        color:#9f1f63;
+        border-color: #9f1f63;;
+        border-radius:0px 0px 0px 0px;
+    }
+
+    h4 {
+        color: #9f1f63;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}

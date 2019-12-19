@@ -25696,30 +25696,6 @@ ion-navbar.toolbar {
   min-height: 46px;
 }
 
-page-b-ituy-nth-nh-vi-n #bITuyNThNhViN-button11 {
-  background-color: #9f1f63;
-}
-
-page-b-ituy-nth-nh-vi-n #bITuyNThNhViN-button11:hover {
-  background-color: #f7941e;
-}
-
-page-b-ituy-nth-nh-vi-n #bITuyNThNhViN-button13 {
-  border-radius: 8px;
-  color: #9f1f63;
-  border-color: #9f1f63;
-  border-radius: 0px 0px 0px 0px;
-  background-color: #fff;
-}
-
-page-b-ituy-nth-nh-vi-n img {
-  border-radius: 8px;
-}
-
-page-b-ituy-nth-nh-vi-n h4 {
-  color: #9f1f63;
-}
-
 page-bands-co #bandsCO-button {
   background-color: #9f1f63;
 }
@@ -25732,104 +25708,37 @@ page-bands-co img {
   border-radius: 8px;
 }
 
-page-ch-nh-sahs h4 {
+page-edit-profile h4 {
   color: #9f1f63;
 }
 
-page-ch-nh-sahs #chNhSAHS-button5 {
+page-edit-profile #editProfile-button5 {
   background-color: #9f1f63;
 }
 
-page-ch-nh-sahs #chNhSAHS-button5:hover {
+page-edit-profile #editProfile-button5:hover {
   background-color: #f7941e;
 }
 
-page-ch-nh-sahs button#chNhSAHS-button5 {
+page-edit-profile button#editProfile-button5 {
   margin-top: 30px;
 }
 
-page-gia-nh-pnh-m h4 {
-  color: #9f1f63;
-  font-weight: 400;
-}
-
-page-gia-nh-pnh-m #giaNhPNhM-button {
+page-find-band #FindBand-button7 {
   background-color: #9f1f63;
 }
 
-page-gia-nh-pnh-m #giaNhPNhM-button:hover {
+page-find-band #FindBand-button7:hover {
   background-color: #f7941e;
 }
 
-page-h-s h4 {
-  color: #9f1f63;
-}
-
-page-h-s #hS-button14 {
-  background-color: #9f1f63;
-}
-
-page-h-s #hS-button14:hover {
-  background-color: #f7941e;
-}
-
-page-ng-bituy-nband #NgBITuyNBand-button7 {
-  background-color: #9f1f63;
-}
-
-page-ng-bituy-nband #NgBITuyNBand-button7:hover {
-  background-color: #f7941e;
-}
-
-page-ng-gia-nh-pnh-m .img {
-  border-radius: 20px;
-}
-
-page-ng-gia-nh-pnh-m #NgGiaNhPNhM-button20 {
-  background-color: #9f1f63;
-}
-
-page-ng-gia-nh-pnh-m #NgGiaNhPNhM-button20:hover {
-  background-color: #f7941e;
-}
-
-page-ng-gia-nh-pnh-m #label {
-  font-weight: bold;
-  color: black;
-}
-
-page-ng-k #NgK-button3 {
-  background-color: #9f1f63;
-  border-radius: 8px;
-}
-
-page-ng-k #NgK-button3:hover {
-  background-color: #f7941e;
-}
-
-page-ng-nh-p #NgNhP-button1 {
-  color: #FFFFFF;
-  border-radius: 8px;
-  background-color: #9f1f63;
-}
-
-page-ng-nh-p #NgNhP-button1:hover {
-  background-color: #f7941e;
-}
-
-page-ng-nh-p .item-md.item-input.item-input-has-focus .item-inner, page-ng-nh-p .item-md.item-input.input-has-focus .item-inner {
-  border-bottom-color: #9f1f63;
-  -webkit-box-shadow: inset 0 -1px 0 0 #9f1f63;
-  box-shadow: inset 0 -1px 0 0 #9f1f63;
-}
-
-page-ng-tuy-nband #NgTuyNBand-heading10 {
+page-find-band-post #FindBandPost-heading10 {
   color: #9f1f63;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-page-ng-tuy-nband .img-band {
+page-find-band-post .img-band {
   display: block;
   width: 100%;
   height: auto;
@@ -25838,57 +25747,153 @@ page-ng-tuy-nband .img-band {
   border-radius: 8px;
 }
 
-page-ng-tuy-nband .ion-item {
+page-find-band-post .ion-item {
   color: #9f1f63;
 }
 
-page-ng-tuy-nband .show-list-numbers-and-dots {
+page-find-band-post .show-list-numbers-and-dots {
   color: #9f1f63;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-page-ng-tuy-nband #NgTuyNBand-button8 {
+page-find-band-post #FindBandPost-button8 {
   border-radius: 8px;
   color: #9f1f63;
   border-color: #9f1f63;
   border-radius: 0px 0px 0px 0px;
+  background-color: #fff;
 }
 
-page-ng-tuy-nband #NgTuyNBand-button9 {
+page-find-band-post #FindBandPost-button9 {
   border-radius: 8px;
   background-color: #9f1f63;
 }
 
-page-ng-tuy-nband #NgTuyNBand-button9:hover {
+page-find-band-post #FindBandPost-button9:hover {
   background-color: #f7941e;
 }
 
-page-ng-tuy-nth-nh-vi-n .img-band {
+page-find-member .img-band {
   border-radius: 8px;
 }
 
-page-ng-tuy-nth-nh-vi-n .img-member:hover .child, page-ng-tuy-nth-nh-vi-n .img-band:focus {
+page-find-member .img-member:hover .child, page-find-member .img-band:focus {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button10 {
+page-find-member #findMember-button10 {
   border-radius: 8px;
   background-color: #9f1f63;
 }
 
-page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button10:hover {
+page-find-member #findMember-button10:hover {
   background-color: #f7941e;
 }
 
-page-ng-tuy-nth-nh-vi-n #NgTuyNThNhViN-button12 {
+page-find-member #findMember-button12 {
   border-radius: 8px;
   color: #9f1f63;
   border-color: #9f1f63;
   border-radius: 0px 0px 0px 0px;
 }
 
-page-ng-tuy-nth-nh-vi-n h4 {
+page-find-member h4 {
   color: #9f1f63;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+page-find-member-post #findMemberPost-button11 {
+  background-color: #9f1f63;
+}
+
+page-find-member-post #findMemberPost-button11:hover {
+  background-color: #f7941e;
+}
+
+page-find-member-post #findMemberPost-button13 {
+  border-radius: 8px;
+  color: #9f1f63;
+  border-color: #9f1f63;
+  border-radius: 0px 0px 0px 0px;
+  background-color: #fff;
+}
+
+page-find-member-post img {
+  border-radius: 8px;
+}
+
+page-find-member-post h4 {
+  color: #9f1f63;
+}
+
+page-join-band .img {
+  border-radius: 20px;
+}
+
+page-join-band #joinBand-button20 {
+  background-color: #9f1f63;
+}
+
+page-join-band #joinBand-button20:hover {
+  background-color: #f7941e;
+}
+
+page-join-band #label {
+  font-weight: bold;
+  color: black;
+}
+
+page-join-band-post .img {
+  border-radius: 20px;
+}
+
+page-join-band-post #joinBandPost-button20 {
+  background-color: #9f1f63;
+}
+
+page-join-band-post #joinBandPost-button20:hover {
+  background-color: #f7941e;
+}
+
+page-join-band-post #label {
+  font-weight: bold;
+  color: black;
+}
+
+page-login #login-button1 {
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #9f1f63;
+}
+
+page-login #login-button1:hover {
+  background-color: #f7941e;
+}
+
+page-login .item-md.item-input.item-input-has-focus .item-inner, page-login .item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #9f1f63;
+  -webkit-box-shadow: inset 0 -1px 0 0 #9f1f63;
+  box-shadow: inset 0 -1px 0 0 #9f1f63;
+}
+
+page-profile h4 {
+  color: #9f1f63;
+}
+
+page-profile #profile-button14 {
+  background-color: #9f1f63;
+}
+
+page-profile #profile-button14:hover {
+  background-color: #f7941e;
+}
+
+page-signup #signup-button3 {
+  background-color: #9f1f63;
+  border-radius: 8px;
+}
+
+page-signup #signup-button3:hover {
+  background-color: #f7941e;
 }

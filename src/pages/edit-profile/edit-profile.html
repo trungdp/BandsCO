@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button on-click="goToProfile()">
+        Lưu
+      </button>
+    </ion-buttons>
+    <ion-title>
+      EditProfile
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="page8">
+  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />
+  <div id="editProfile-markdown20" class="show-list-numbers-and-dots">
+    <h4>
+      Cơ bản
+    </h4>
+  </div>
+  <form id="editProfile-form8" [formGroup]="formEdit">
+    <ion-item id="editProfile-input18">
+      <ion-label></ion-label>
+      <ion-input formControlName="name" type="text" placeholder="Họ và tên"></ion-input>
+    </ion-item>
+    <ion-item id="editProfile-input17">
+      <ion-label></ion-label>
+      <ion-input formControlName="email" type="text" placeholder="Email"></ion-input>
+    </ion-item>
+    <ion-item id="editProfile-input19">
+      <ion-label></ion-label>
+      <ion-input formControlName="phone" type="text" placeholder="Số điện thoại"></ion-input>
+    </ion-item>
+    <ion-item id="editProfile-input26">
+      <ion-label></ion-label>
+      <ion-input formControlName="freetime" type="text" placeholder="Thời gian rảnh"></ion-input>
+    </ion-item>
+  </form>
+  <div id="editProfile-markdown21" class="show-list-numbers-and-dots">
+    <h4>
+      Kỹ năng
+    </h4>
+  </div>
+  <ion-list id="editProfile-list13">
+    <ion-item id="editProfile-select2">
+      <ion-label>
+        Nhạc cụ
+      </ion-label>
+      <ion-select name=""></ion-select>
+    </ion-item>
+    <ion-item id="editProfile-checkbox1" *ngFor ="let item of items">
+      <ion-label>
+        {{item.name}}
+      </ion-label>
+      <ion-checkbox  [(ngModel)]="item.isChecked" (ionChange)="check(item.isChecked)"></ion-checkbox>
+    </ion-item>
+    <ion-item id="editProfile-input16">
+      <ion-label></ion-label>
+      <ion-input type="text" [(ngModel)]="OrderMusical" name="OrderMusical" placeholder="Nhạc cụ khác"></ion-input>
+    </ion-item>
+  </ion-list>
+  <div class="spacer" style="height:10px;" id="editProfile-spacer18"></div>
+  <form id="editProfile-form9">
+    <ion-item id="editProfile-input23">
+      <ion-label></ion-label>
+      <ion-input [(ngModel)]="Achievements" name="Achievements"  type="text" placeholder="Thành tích"></ion-input>
+    </ion-item>
+  </form>
+  <button id="editProfile-button5" ion-button color="royal" block on-click="goToProfile()">
+    Lưu
+  </button>
+</ion-content>
+<!--footer-->
+<ion-footer>
+    <ion-navbar>
+      <ion-row>
+        <ion-buttons col text-center>
+          <button mx-auto ion-button icon-only on-click="goToHome()">
+            <ion-icon name="home"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-buttons col text-center>
+          <button mx-auto ion-button icon-only (click)="goToMenu()">
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-row>
+    </ion-navbar>
+  </ion-footer>

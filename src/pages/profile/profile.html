@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button></button>
+    </ion-buttons>
+    <ion-title>
+      Profile
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goToEditProfile()">
+        <ion-icon name="create"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page5">
+  <div class="spacer" style="height:20px;" id="profile-spacer12"></div>
+  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;" />
+  <div class="spacer" style="height:10px;" id="profile-spacer10"></div>
+  <h3 id="profile-heading11" style="color:#8A2CE2;text-align:center;">
+    Vũ Phạm
+  </h3>
+  <div id="profile-markdown15" class="show-list-numbers-and-dots">
+    <h4>
+      Cơ bản
+    </h4>
+  </div>
+  <ion-list id="profile-list8">
+    <ion-item color="royal" id="profile-list-item36">
+      <ion-icon name="person" item-left></ion-icon>
+      Phạm Trung Anh Vũ
+    </ion-item>
+    <ion-item color="royal" id="profile-list-item29">
+      <ion-icon name="phone-portrait" item-left></ion-icon>
+      0234567890
+    </ion-item>
+    <ion-item color="royal" id="profile-list-item46">
+      <ion-icon name="mail" item-left></ion-icon>
+      anhvupt@gmail.com
+    </ion-item>
+  </ion-list>
+  <div class="spacer" style="height:10px;" id="profile-spacer15"></div>
+  <div id="profile-markdown18" class="show-list-numbers-and-dots">
+    <h4>
+      Kỹ năng
+    </h4>
+  </div>
+  <ion-list id="profile-list11">
+    <ion-item color="royal" id="profile-list-item12">
+      <ion-icon name="musical-notes" item-left></ion-icon>
+      Trống, Guitar
+    </ion-item>
+    <ion-item color="royal" id="profile-list-item13">
+      <ion-icon name="star" item-left></ion-icon>
+      Licks, Bass, Hammer
+    </ion-item>
+  </ion-list>
+  <ion-list id="profile-list16">
+    <ion-item color="royal" id="profile-list-item43">
+      <ion-icon name="bookmark" item-left></ion-icon>
+      Giải nhất The Voice
+    </ion-item>
+  </ion-list>
+  <div id="profile-markdown17" class="show-list-numbers-and-dots">
+    <h4>
+      Tài khoản
+    </h4>
+  </div>
+  <button id="profile-button14" ion-button color="royal" block>
+    Đăng xuất
+  </button>
+  <div class="spacer" style="height:10px;" id="profile-spacer11"></div>
+</ion-content>
+<!--footer-->
+<ion-footer>
+    <ion-navbar>
+      <ion-row>
+        <ion-buttons col text-center>
+          <button mx-auto ion-button icon-only on-click="goToHome()">
+            <ion-icon name="home"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-buttons col text-center>
+          <button mx-auto ion-button icon-only (click)="goToMenu()">
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-row>
+    </ion-navbar>
+  </ion-footer>
