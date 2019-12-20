@@ -35,48 +35,50 @@ export class BandsCOPage {
     });
     console.log("bandsco/bandsco: data: "+dataService.getProfile().username);
   }
-  getPosts(){
-    this.resProvider.getPosts().then(data=>{
+
+
+  getPosts() {
+    this.resProvider.getPosts().then(data => {
       this.posts = data;
       console.log(this.posts);
     });
   }
-  //for footer 
-  goToHome(params){
+
+  goToHome(params) {
     if (!params) params = {};
     this.navCtrl.push(BandsCOPage);
   }
-  goToMenu(params){
+  goToMenu(params) {
     if (!params) params = {};
     this.navCtrl.push(MenuPage);
   }
   //-----------
-  goToProfile(params){
+  goToProfile(params) {
     if (!params) params = {};
     this.navCtrl.push(ProfilePage);
   }
-  goToFindMemberPost(params){
+  goToFindMemberPost(params) {
     if (!params) params = {};
     this.navCtrl.push(FindMemberPostPage);
   }
-  goToFindMember(params){
+  goToFindMember(params) {
     if (!params) params = {};
     this.navCtrl.push(FindMemberPage);
   }
-  goToFindBandPost(params){
+  goToFindBandPost(params) {
     if (!params) params = {};
     this.navCtrl.push(FindBandPostPage);
   }
 
-  goToEditProfile(params){
+  goToEditProfile(params) {
     if (!params) params = {};
     this.navCtrl.push(EditProfilePage);
   }
-  goToJoinBand(params){
+  goToJoinBand(params) {
     if (!params) params = {};
     this.navCtrl.push(JoinBandPage);
   }
-  goToFindBand(params){
+  goToFindBand(params) {
     if (!params) params = {};
     this.navCtrl.push(FindBandPage);
   }
