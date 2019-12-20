@@ -79,28 +79,66 @@
 
 
   <ion-card *ngFor="let post of posts" [ngSwitch]="post.type">
-    <ion-list *ngSwitchCase = "FIND BAND">
-      join band
+    <ion-list *ngSwitchCase ="'FIND_MEMBER'">
       <ion-item color="royal">
         <ion-avatar item-left >
-          <img [src]= "post.postcontent.user.img" />
+          <!--img [src]= "post.postcontent.img"-->
+        </ion-avatar>
+        <h2>
+          {{post.postcontent.name}}
+        </h2>
+      </ion-item>
+      <!--img [src]= "post.postcontent.img"-->
+      <ion-item color="royal">
+        <ion-icon name="musical-notes" item-left></ion-icon>
+        {{post.postcontent.musicals}}
+      </ion-item>
+      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindMemberPost()">
+        Xem hồ sơ
+      </button>
+    </ion-list >
+
+    <ion-list *ngSwitchCase ="'JOIN_BAND'">
+      <ion-item color="royal">
+        <ion-avatar item-left>
+          <img [src]="post.postcontent.user.avatar" />
         </ion-avatar>
         <h2>
           {{post.postcontent.user.username}}
         </h2>
       </ion-item>
-      <img [src]= "post.postcontent.user.img" />
+      <img [src]="post.postcontent.user.avatar" />
       <ion-item color="royal">
         <ion-icon name="musical-notes" item-left></ion-icon>
         {{post.postcontent.user.skill}}
       </ion-item>
-      <button id="bandsCO-button" ion-button color="royal" block on-click="goToProfile()">
+      <button id="bandsCO-button" ion-button color="royal" block on-click="goToJoinBand()">
         Xem hồ sơ
       </button>
     </ion-list>
-    <ion-list *ngSwitchDefault>
+
+    <ion-list *ngSwitchCase ="'FIND_BAND'">
+      <ion-item color="royal" id="bandsCO-list-item17">
+        <ion-avatar item-left>
+          <img [src]="post.postcontent.image" />
+        </ion-avatar>
+        <h2>
+          {{post.postcontent.name}}
+        </h2>
+      </ion-item>
+      <img [src]="post.postcontent.image" />
+      <ion-item color="royal">
+        <ion-icon name="cash" item-left></ion-icon>
+        {{post.postcontent.salary}}
+      </ion-item>
+      <button id="bandsCO-button" ion-button color="royal" block on-click="goToFindBandPost()">
+        Xem chi tiết
+      </button>
+    </ion-list>
+
+    <ion-list *ngSwitchDefault  >
       <ion-item>
-      <p>default</p>
+      <p>{{post.type}}</p>
     </ion-item>
     </ion-list>
   </ion-card>
