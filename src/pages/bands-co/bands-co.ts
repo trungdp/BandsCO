@@ -8,6 +8,8 @@ import {EditProfilePage} from '../edit-profile/edit-profile';
 import{JoinBandPage} from '../join-band/join-band';
 import { MenuPage } from '../menu/menu';
 import {FindBandPage} from '../find-band/find-band';
+import {RestProvider} from '../../providers/rest';
+
 
 @Component({
   selector: 'page-bands-co',
@@ -15,9 +17,19 @@ import {FindBandPage} from '../find-band/find-band';
 })
 export class BandsCOPage {
 
-  constructor(public navCtrl: NavController) {
+  posts: any;
+
+  constructor(public navCtrl: NavController, public resProvider: RestProvider) {
+    this.getPosts();
   }
 
+
+  getPosts(){
+    this.resProvider.getPosts().then(data=>{
+      this.posts = data;
+      console.log(this.posts);
+    });
+  }
   //for footer 
   goToHome(params){
     if (!params) params = {};

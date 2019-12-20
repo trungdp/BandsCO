@@ -14,10 +14,13 @@ import { FindMemberPostPage } from '../pages/find-member-post/find-member-post';
 import { JoinBandPage } from '../pages/join-band/join-band';
 import { JoinBandPostPage } from '../pages/join-band-post/join-band-post';
 import {MenuPage} from '../pages/menu/menu';
+import { HttpModule } from '@angular/http';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AuthServiceProvider } from '../providers/auth-service';
+import {RestProvider} from '../providers/rest';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -58,6 +62,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    AuthServiceProvider,
+    RestProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
