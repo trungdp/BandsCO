@@ -15,10 +15,10 @@
 </ion-header>
 <ion-content padding id="page5">
   <div class="spacer" style="height:20px;" id="profile-spacer12"></div>
-  <img src="assets/img/E7jYmtBBQYyPBkmHj8hg_avt-dam-cuoi-circle.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;" />
+  <img [src]="user.avatar" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;" />
   <div class="spacer" style="height:10px;" id="profile-spacer10"></div>
   <h3 id="profile-heading11" style="color:#8A2CE2;text-align:center;">
-    Vũ Phạm
+    {{user.username}}
   </h3>
   <div id="profile-markdown15" class="show-list-numbers-and-dots">
     <h4>
@@ -28,15 +28,15 @@
   <ion-list id="profile-list8">
     <ion-item color="royal" id="profile-list-item36">
       <ion-icon name="person" item-left></ion-icon>
-      Phạm Trung Anh Vũ
+      {{user.username}}
     </ion-item>
     <ion-item color="royal" id="profile-list-item29">
       <ion-icon name="phone-portrait" item-left></ion-icon>
-      0234567890
+      {{user.phone}}
     </ion-item>
     <ion-item color="royal" id="profile-list-item46">
       <ion-icon name="mail" item-left></ion-icon>
-      anhvupt@gmail.com
+      {{user.email}}
     </ion-item>
   </ion-list>
   <div class="spacer" style="height:10px;" id="profile-spacer15"></div>
@@ -48,17 +48,17 @@
   <ion-list id="profile-list11">
     <ion-item color="royal" id="profile-list-item12">
       <ion-icon name="musical-notes" item-left></ion-icon>
-      Trống, Guitar
+      {{user.musical}}
     </ion-item>
     <ion-item color="royal" id="profile-list-item13">
       <ion-icon name="star" item-left></ion-icon>
-      Licks, Bass, Hammer
+      {{user.skill}}
     </ion-item>
   </ion-list>
   <ion-list id="profile-list16">
     <ion-item color="royal" id="profile-list-item43">
       <ion-icon name="bookmark" item-left></ion-icon>
-      Giải nhất The Voice
+      {{user.achievements}}
     </ion-item>
   </ion-list>
   <div id="profile-markdown17" class="show-list-numbers-and-dots">
@@ -71,20 +71,3 @@
   </button>
   <div class="spacer" style="height:10px;" id="profile-spacer11"></div>
 </ion-content>
-<!--footer-->
-<ion-footer>
-    <ion-navbar>
-      <ion-row>
-        <ion-buttons col text-center>
-          <button mx-auto ion-button icon-only on-click="goToHome()">
-            <ion-icon name="home"></ion-icon>
-          </button>
-        </ion-buttons>
-        <ion-buttons col text-center>
-          <button mx-auto ion-button icon-only (click)="goToMenu()">
-            <ion-icon name="menu"></ion-icon>
-          </button>
-        </ion-buttons>
-      </ion-row>
-    </ion-navbar>
-  </ion-footer>

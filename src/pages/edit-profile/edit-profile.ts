@@ -6,6 +6,7 @@ import {MenuPage} from '../menu/menu';
 import { FormBuilder, Validators } from '@angular/forms';
 import { UserInfo } from '../../models/userInfo';
 import { Musical } from '../../models/musical';
+import {Data} from '../../providers/data';
 
 @Component({
   selector: 'page-edit-profile',
@@ -17,7 +18,12 @@ export class EditProfilePage {
   UserProfile : UserInfo;
   OrderMusical : any ="";
   Achievements : any ="";
-  constructor(public navCtrl: NavController,public formBuilder : FormBuilder) {
+
+  userInfo :any;
+
+  constructor(public navCtrl: NavController,public formBuilder : FormBuilder, public dataService: Data) {
+
+    this.userInfo = this.dataService.getProfile();
     this.items = [
       new Musical('Cajon',false),
       new Musical('Beatbox',false),
@@ -26,20 +32,18 @@ export class EditProfilePage {
       new Musical('Vocal',false)
   ];
   this.formEdit = formBuilder.group({
-    name: ['', Validators.required],
-    email: ['', Validators.required],
-    phone: ['', Validators.required],
+    name: [this.userInfo.username, Validators.required],
+    email: [this.userInfo.email, Validators.required],
+    phone: [this.userInfo.phone, Validators.required],
     freetime: ['', Validators.required]
 });
   }
   goToProfile(params){
     let Profile = this.formEdit.value;
-    this.UserProfile = new UserInfo("no Id","no User Id",Profile['name'],"",Profile['phone'],
-    Profile['email'],"skill",this.getMusical().toString(),this.Achievements);
-    console.log(JSON.stringify(this.UserProfile));
-    //save Profile ?
+    console.log(JSON.stringify(this.userInfo));
+    this.dataService.updateProfile(this.userInfo);
     if (!params) params = {};
-   // this.navCtrl.push(ProfilePage);
+    this.navCtrl.push(ProfilePage);
   }
   //for footer 
   goToHome(params){
