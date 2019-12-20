@@ -27,6 +27,15 @@ export class MyApp {
 
       dataService.deleteFromStorage();
       dataService.start();
+      dataService.updateProfile({id: 2,
+        accountid: 2,
+        username: "admin",
+        img: "",
+        phone: "23450000009",
+        email: "trungtrs1@gmail.com",
+        skill: "Rap",
+        musical: "Trống",
+        achievements: "Giải nhất the voice"});
     });
   }
   
