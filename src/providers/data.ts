@@ -25,6 +25,7 @@ export class Data{
     }
 
     saveToStorage(){
+        console.log("provider/data: save: "+this.user.username);
         this.storage.set('user', this.user);
     }
     getProfile(){

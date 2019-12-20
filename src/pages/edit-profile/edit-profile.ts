@@ -19,19 +19,11 @@ export class EditProfilePage {
   OrderMusical : any ="";
   Achievements : any ="";
 
-  userInfo = {id: 2,
-  accountid: 2,
-  username: "admin",
-  img: "",
-  phone: "23450000009",
-  email: "trungtrs1@gmail.com",
-  skill: "Rap",
-  musical: "Trống",
-  achievements: "Giải nhất the voice"}
+  userInfo :any;
 
   constructor(public navCtrl: NavController,public formBuilder : FormBuilder, public dataService: Data) {
 
-    this.dataService.updateProfile(this.userInfo);
+    this.userInfo = this.dataService.getProfile();
     this.items = [
       new Musical('Cajon',false),
       new Musical('Beatbox',false),
@@ -48,9 +40,7 @@ export class EditProfilePage {
   }
   goToProfile(params){
     let Profile = this.formEdit.value;
-    this.UserProfile = new UserInfo("no Id","no User Id",Profile['name'],"",Profile['phone'],
-    Profile['email'],"skill",this.getMusical().toString(),this.Achievements);
-    console.log(JSON.stringify(this.UserProfile));
+    console.log(JSON.stringify(this.userInfo));
     this.dataService.updateProfile(this.userInfo);
     if (!params) params = {};
     this.navCtrl.push(ProfilePage);
